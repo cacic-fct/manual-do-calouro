@@ -20,7 +20,7 @@ O [preço dos combustíveis](https://precodoscombustiveis.com.br/pt-br/city/bras
 Algumas bandeiras de postos de combustíveis oferecem desconto através de aplicativos ou dependendo do método de pagamento.
 
 #### Bicicleta
-A cidade conta com algumas ciclovias, infames por serem pouco extensas, mau planejadas e perigosas.
+A cidade conta com algumas ciclovias, infames por serem pouco extensas, mal planejadas e perigosas.
 
 Não existe serviço de compartilhamento de bicicletas, como o bike Itaú de São Paulo.
 
