@@ -7,7 +7,7 @@ As ruas e avenidas estreitas não comportam a crescente quantidade de carros, ma
 
 Os principais pontos de trânsito lento no horário de pico são:
 
-- [Quadrilátero central](https:/.google.com/maps/@-22.1240667,-51.3860823,17.1z)
+- [Quadrilátero central](https://google.com/maps/@-22.1240667,-51.3860823,17.1z)
 - [Rotatória do Lar dos Meninos](https://google.com/maps/@-22.0994998,-51.4257092,17.53z)
 - Próximo à Unesp
   - [Rotatória dos mercados](https://google.com/maps/@-22.1145206,-51.4125003,18.79z)
