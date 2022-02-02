@@ -4,7 +4,7 @@ O funcionamento do câmpus é organizado por uma hierarquia de entidades:
 
 #### Congregação
 
-É o órgão deliberativo e normativo máximo em ensino, pesquisa, extensão universitária e administração (artigo 39 do estatudo da Unesp).
+É o órgão deliberativo e normativo máximo em ensino, pesquisa, extensão universitária e administração (artigo 39 do estatuto da Unesp).
 
 #### Diretoria
 
