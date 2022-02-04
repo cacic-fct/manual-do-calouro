@@ -222,6 +222,32 @@
                     -22.130081729152657
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Prudente Home Trade Center"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.39882266521454,
+                    -22.141271982941515
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Euromarket"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.418518126010895,
+                    -22.12126853019448
+                ]
+            }
         }
     ]
 }
