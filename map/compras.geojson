@@ -34,6 +34,204 @@
                     ]
                 ]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "name": "Parque Shopping Prudente",
+                "description": "Popularmente conhecido como \"Shopping Americanas\", por ter abrigado a primeira loja da cidade. É um shopping menor, com preços e marcas mais populares. É aqui que fica a única Smart Fit da cidade. O estacionamento é gratuito das 11:30 às 13:30 e 19:00 às 22:00 para almoço e janta."
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -51.389319598674774,
+                            -22.131286761447047
+                        ],
+                        [
+                            -51.38985872268677,
+                            -22.13089419535731
+                        ],
+                        [
+                            -51.39045149087906,
+                            -22.13062337380968
+                        ],
+                        [
+                            -51.39112472534179,
+                            -22.131815978558215
+                        ],
+                        [
+                            -51.38994187116623,
+                            -22.13244954572451
+                        ],
+                        [
+                            -51.389319598674774,
+                            -22.131286761447047
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "stroke": "#555555",
+                "stroke-width": 2,
+                "stroke-opacity": 1,
+                "fill": "#555555",
+                "fill-opacity": 0.5,
+                "name": "PrudenShopping",
+                "description": "Principal centro de compras da região. Abriga marcas famosas."
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -51.404502242803574,
+                            -22.11790162841429
+                        ],
+                        [
+                            -51.40439495444298,
+                            -22.116583420978547
+                        ],
+                        [
+                            -51.40573471784592,
+                            -22.116452966226547
+                        ],
+                        [
+                            -51.4059117436409,
+                            -22.116404511573624
+                        ],
+                        [
+                            -51.40623360872268,
+                            -22.11619454121854
+                        ],
+                        [
+                            -51.40717104077339,
+                            -22.115442869632492
+                        ],
+                        [
+                            -51.407805383205414,
+                            -22.11532732306639
+                        ],
+                        [
+                            -51.40918672084808,
+                            -22.11523786759534
+                        ],
+                        [
+                            -51.40949785709381,
+                            -22.115261473905715
+                        ],
+                        [
+                            -51.40972450375557,
+                            -22.115307444077725
+                        ],
+                        [
+                            -51.409952491521835,
+                            -22.115400626812853
+                        ],
+                        [
+                            -51.4106485247612,
+                            -22.115763417674984
+                        ],
+                        [
+                            -51.41068607568741,
+                            -22.115841690923485
+                        ],
+                        [
+                            -51.41071155667305,
+                            -22.11604544965231
+                        ],
+                        [
+                            -51.41060024499893,
+                            -22.116083964988693
+                        ],
+                        [
+                            -51.410180479288094,
+                            -22.116142359188295
+                        ],
+                        [
+                            -51.408997625112534,
+                            -22.11610011657824
+                        ],
+                        [
+                            -51.40850678086281,
+                            -22.116173419922916
+                        ],
+                        [
+                            -51.40796363353729,
+                            -22.116334314418715
+                        ],
+                        [
+                            -51.404502242803574,
+                            -22.11790162841429
+                        ]
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Shopping Calçadão Villa Romana",
+                "description": "Shopping popular."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.385686546564095,
+                    -22.126246676341086
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Galeria Goulart",
+                "description": "Shopping popular."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.38598561286926,
+                    -22.12659577357799
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Calçadão",
+                "description": "Centro popular de compras."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.38611435890198,
+                    -22.123539590477403
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Galeria 18|21",
+                "description": "Conhecida pelo Urban Café, abriga algumas lojas dos mais variados segmentos."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.39864295721054,
+                    -22.130081729152657
+                ]
+            }
         }
     ]
 }
