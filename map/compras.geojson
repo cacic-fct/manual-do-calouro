@@ -38,11 +38,6 @@
         {
             "type": "Feature",
             "properties": {
-                "stroke": "#555555",
-                "stroke-width": 2,
-                "stroke-opacity": 1,
-                "fill": "#555555",
-                "fill-opacity": 0.5,
                 "name": "Parque Shopping Prudente",
                 "description": "Popularmente conhecido como \"Shopping Americanas\", por ter abrigado a primeira loja da cidade. É um shopping menor, com preços e marcas mais populares. É aqui que fica a única Smart Fit da cidade. O estacionamento é gratuito das 11:30 às 13:30 e 19:00 às 22:00 para almoço e janta."
             },
@@ -81,13 +76,8 @@
         {
             "type": "Feature",
             "properties": {
-                "stroke": "#555555",
-                "stroke-width": 2,
-                "stroke-opacity": 1,
-                "fill": "#555555",
-                "fill-opacity": 0.5,
-                "name": "PrudenShopping",
-                "description": "Principal centro de compras da região. Abriga marcas famosas."
+                "name": "Prudenshopping",
+                "description": "Principal centro de compras da região."
             },
             "geometry": {
                 "type": "Polygon",
@@ -181,7 +171,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Shopping Calçadão Villa Romana",
-                "description": "Shopping popular."
+                "description": "Shopping popular"
             },
             "geometry": {
                 "type": "Point",
@@ -195,7 +185,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Galeria Goulart",
-                "description": "Shopping popular."
+                "description": "Shopping popular"
             },
             "geometry": {
                 "type": "Point",
