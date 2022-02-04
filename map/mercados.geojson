@@ -82,7 +82,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Supermercados avenida"
+                "name": "Supermercados Avenida"
             },
             "geometry": {
                 "type": "Point",
@@ -147,7 +147,8 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Supermercados Estrela"
+                "name": "Supermercados Estrela",
+                "description": ""
             },
             "geometry": {
                 "type": "Point",
@@ -280,13 +281,117 @@
             "type": "Feature",
             "properties": {
                 "name": "Supermercados Ulian",
-                "description": "Carnes baratas"
+                "description": "Carnes baratas."
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
                     -51.378175020217896,
                     -22.139786294392348
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Supermercados Estrela"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.398366689682,
+                    -22.141411110163514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Supermercados Estrela"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.42371356487274,
+                    -22.098951056568506
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Assaí Atacadista"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.4142507314682,
+                    -22.137808664580646
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Supermercados Estrela"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.428450345993035,
+                    -22.110173601437236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Supermercados Pastorinho"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.38149559497833,
+                    -22.12436700268888
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Mercado Mania Loja 2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.37663006782532,
+                    -22.115695083851072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Supermercados Estrela"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.45425319671631,
+                    -22.151417971902273
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Supermercados Mais Você"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.455368995666504,
+                    -22.146827027321546
                 ]
             }
         }
