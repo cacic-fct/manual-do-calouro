@@ -30,7 +30,7 @@ O relevo de grande parte da cidade dificulta o transporte por bicicleta.
 
 #### Aplicativos de corrida
 
-Os motoristas de aplicativos são credenciados pela AMOESP - Associação dos Motoristas de Aplicativo do Oeste Paulista.
+Os motoristas de aplicativos são credenciados pela prefeitura municipal e AMOESP - Associação dos Motoristas de Aplicativo do Oeste Paulista.
 
 Na cidade, operam os seguintes aplicativos:
 
