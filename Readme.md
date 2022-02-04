@@ -20,7 +20,7 @@ Cada categoria de lugar deve possuir seu próprio arquivo (ex: mercados, compras
 Para editar estes arquivos, abra-os no [geojson.io](https://geojson.io) ou outra ferramenta de sua preferência.
 
 Ao criar um novo ponto ou polígono:  
-- Inclua, obrigatoriamente, os campos `name` e `description`;
+- Inclua os campos `name` e `description`;
 - No geojson.io, desmarque a caixa "Show style properties".
 
 `name` é o nome do estabelecimento ou local de interesse público.  
