@@ -32,7 +32,7 @@ Ele conta com os seguintes voos:
     - Maceió (MCZ)
     - Natal (NAT)
     - Porto Seguro (BPS)
-- **Gol**, operado pela **VoePass**
+- **Gol**
   - São Paulo (GRU)
 - **Latam**
   - São Paulo (GRU)
