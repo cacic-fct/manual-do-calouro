@@ -27,6 +27,7 @@ Ele conta com os seguintes voos:
 
 - **Azul**
   - Campinas (VCP)
+  - Campo Grande (CGR)
   - Alta temporada de verão
     - Cuiabá (CGB)
     - Maceió (MCZ)
