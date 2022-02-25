@@ -15,7 +15,7 @@ O mês com maior índice pluvial é o de janeiro. Durante o outono e inverno, n�
 
 A cidade possui uma quantidade significativa de vegetação.
 
-O segundo maior ponto de vegetação urbana contigua da cidade está na FCT-Unesp, sendo menor apenas que a mata do furquim.
+O segundo maior ponto de vegetação urbana contígua da cidade está na FCT-Unesp, sendo menor apenas que a mata do furquim.
 
 ##### PRUDENCO
 
