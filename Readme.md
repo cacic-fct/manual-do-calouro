@@ -7,7 +7,7 @@ Estão reunidas as informações que todos os calouros precisam saber para enten
 ## Contribuindo
 Todos podem contribuir com o manual do calouro através de *pull requests*, *discussions* e *issues*.  
 Você pode criar novos arquivos ou alterar os já existentes, enviar sugestões e reportar erros.
-> Por questões legais, é necessário concordar com o "Contrato de concessão de licença" e/ou "Política de submissão de ideias não solicitadas".
+> Por questões legais, é necessário concordar com o "Contrato de concessão de licença" e/ou a "Política de submissão de ideias não solicitadas".
 
 ### Seções
 As seções são cada tópico do manual do calouro.  
