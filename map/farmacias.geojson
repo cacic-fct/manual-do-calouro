@@ -1,0 +1,75 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Centro de vacinação Unimed",
+                "description": "Atende pessoas sem plano de saúde."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.402883529663086,
+                    -22.116251692943806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Drogaria Morumbi",
+                "description": "(18) 3908-8385"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.40969634056091,
+                    -22.129511509247667
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Drogasil",
+                "description": "(18) 3221-1589. https://drogasil.com.br/"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.40356481075287,
+                    -22.118264412840695
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Drogaria Carrefour",
+                "description": "Dentro do Carrefour, em frente aos caixas. (18) 3917-3790"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.40947103500366,
+                    -22.115809387683335
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Drogasil",
+                "description": "https://drogasil.com.br/"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.3988709449768,
+                    -22.1295835633064
+                ]
+            }
+        }
+    ]
+}

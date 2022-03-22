@@ -1,0 +1,98 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delegacia da Polícia Federal",
+                "description": "A emissão de passaporte é aqui. (18) 3344-3001"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.41623020172119,
+                    -22.12792506830731
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delegacia de Defesa da Mulher",
+                "description": "Fechada aos fins de semana. (18) 3908-7660"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.391162276268005,
+                    -22.121693424999496
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delegacia da Polícia Civil"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.38941213488579,
+                    -22.120864754704563
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delegacia da Polícia Militar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.38888508081436,
+                    -22.121097081050834
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Base da Polícia Militar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.38832449913025,
+                    -22.122801624136457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Delegacia da Polícia Civil"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.403162479400635,
+                    -22.117113935726447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Base da Polícia Militar"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.402418166399,
+                    -22.12363276777096
+                ]
+            }
+        }
+    ]
+}
