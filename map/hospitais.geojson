@@ -75,7 +75,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Santa Casa de Misericórdia",
-                "description": "Hospital filantrópico que faz atendimentos SUS."
+                "description": "Hospital filantrópico que realiza atendimentos SUS."
             },
             "geometry": {
                 "type": "Point",
