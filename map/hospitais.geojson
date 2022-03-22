@@ -1,0 +1,103 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hospital Regional",
+                "description": "Hospital público. (18) 3229-1500"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.40771687030792,
+                    -22.132784962482525
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "AME - Ambulatório Médico de Especialidades",
+                "description": "Estabelecimento de saúde pública"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.409213542938225,
+                    -22.13457383837031
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hospital Morumbi",
+                "description": "Hospital particular"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.413781344890594,
+                    -22.127202032916504
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hospital Iamada",
+                "description": "Hospital particular. (18) 2104-5000. http://iamada.atq.com.br/"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.41541749238967,
+                    -22.124588142066877
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hospital Infantil Unimed",
+                "description": "Hospital particular para crianças e adolescentes. (18) 2104-8080"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.40287548303604,
+                    -22.115886418474552
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Santa Casa de Misericórdia",
+                "description": "Hospital filantrópico que faz atendimentos SUS."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.39245510101318,
+                    -22.12967922122399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Hospital de Esperança",
+                "description": "Antigo Hospital do Câncer, atende casos oncológicos. (18) 2104-8000."
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -51.39296740293503,
+                    -22.13060846618644
+                ]
+            }
+        }
+    ]
+}
