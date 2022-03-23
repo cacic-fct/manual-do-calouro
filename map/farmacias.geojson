@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Centro de vacinação Unimed",
-                "description": "Atende pessoas sem plano de saúde."
+                "description": "Atende pessoas sem convênio."
             },
             "geometry": {
                 "type": "Point",
