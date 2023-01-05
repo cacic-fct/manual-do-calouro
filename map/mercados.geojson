@@ -17,45 +17,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Supermercados Nagai"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.39735549688339,
-                    -22.112854852348363
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Mais Você"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.38728380203247,
-                    -22.109286466418293
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados estrela"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.399632692337036,
-                    -22.106977901237755
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Vip Express"
             },
             "geometry": {
@@ -134,7 +95,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Maxxi atacadista"
+                "name": "Atacadão"
             },
             "geometry": {
                 "type": "Point",
@@ -148,7 +109,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Supermercados Estrela",
-                "description": ""
+                "description": "Possui restaurante"
             },
             "geometry": {
                 "type": "Point",
@@ -215,32 +176,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Mercado Stadella"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.38150230050087,
-                    -22.11393951443836
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Nagai"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.386168003082275,
-                    -22.128352427687236
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Max Atacadista"
             },
             "geometry": {
@@ -254,7 +189,8 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Supermercados Avenida"
+                "name": "Supermercados Avenida",
+                "description": "Possui restaurante"
             },
             "geometry": {
                 "type": "Point",
@@ -294,32 +230,6 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Supermercados Estrela"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.398366689682,
-                    -22.141411110163514
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Estrela"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.42371356487274,
-                    -22.098951056568506
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "name": "Assaí Atacadista"
             },
             "geometry": {
@@ -333,67 +243,15 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Supermercados Estrela"
+                "name": "Supermercados Nagai"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -51.428450345993035,
-                    -22.110173601437236
+                    -51.386168003082275,
+                    -22.128352427687236
                 ]
             }
         },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Pastorinho"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.38149559497833,
-                    -22.12436700268888
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Mercado Mania Loja 2"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.37663006782532,
-                    -22.115695083851072
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Estrela"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.45425319671631,
-                    -22.151417971902273
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Mais Você"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.455368995666504,
-                    -22.146827027321546
-                ]
-            }
-        }
     ]
 }
