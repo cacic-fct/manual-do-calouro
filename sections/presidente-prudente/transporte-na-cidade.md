@@ -43,7 +43,7 @@ Na cidade, operam os seguintes aplicativos:
 Os ônibus da cidade são operados pela [SOU Presidente Prudente](https://soupresidenteprudente.com.br/).  
 Estudantes tem direito ao cartão escolar, que dá 50% de desconto na tarifa durante o período de aulas.
 
-O valor da tarifa, em 2022, é de R$ 4,25.
+O valor da tarifa, em 2023, é de R$ 5,00.
 
 São frequentes as reclamações sobre os serviços prestados.
 
