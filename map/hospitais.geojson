@@ -5,7 +5,7 @@
             "type": "Feature",
             "properties": {
                 "name": "Hospital Regional",
-                "description": "Hospital público. (18) 3229-1500"
+                "description": "Hospital público de portas fechadas, atende apenas com encaminhamento de UBSs e UPAs. (18) 3229-1500"
             },
             "geometry": {
                 "type": "Point",
