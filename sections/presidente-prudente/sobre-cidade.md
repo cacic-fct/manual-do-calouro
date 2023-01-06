@@ -1,6 +1,6 @@
 # Sobre a cidade
 
-Presidente Prudente é conhecida como a capital do oeste paulista, por ser um dos principais polos industriais, culturais e de serviços do oeste do estado.
+Presidente Prudente é conhecida como a capital do oeste paulista, por ser um dos principais polos industriais, culturais e de serviços da região oeste do estado.
 
 Sua população é de mais de 200.000 habitantes.
 
@@ -15,7 +15,7 @@ O mês com maior índice pluvial é o de janeiro. Durante o outono e inverno, n�
 
 A cidade possui uma quantidade significativa de vegetação.
 
-O segundo maior ponto de vegetação urbana contígua da cidade está na FCT-Unesp, sendo menor apenas que a mata do furquim.
+O segundo maior ponto de vegetação urbana contígua da cidade está na FCT-Unesp, sendo menor apenas que a Mata do Furquim.
 
 ##### PRUDENCO
 
@@ -30,7 +30,7 @@ Também existem [ecopontos](https://prudenco.com.br/servicos) espalhados pela ci
 
 ##### Lixo eletrônico
 
-Além dos ecopontos, seu lixo eletrônico pode ser descartado em [lojas da Vivo](https://vivosustentavel.com.br/recicle/), grandes mercados e durante o [mutirão do lixo eletrônico](http://mutiraodolixoeletronico.com.br/), que ocorre anualmente.
+Além dos ecopontos, seu lixo eletrônico pode ser descartado em grandes mercados, [lojas da Vivo](https://vivosustentavel.com.br/recicle/) e durante o [mutirão do lixo eletrônico](http://mutiraodolixoeletronico.com.br/), que ocorre anualmente.
 
 #### Política
 

@@ -2,31 +2,26 @@
 
 #### Veículo próprio
 
-O trânsito da cidade é violento e caótico, principalmente no horário de pico (abertura e fechamento do comércio e escolas). Os motoristas são, frequentemente, imprudentes, negligentes, inabilidosos e desrespeitosos.  
+O trânsito da cidade é violento e caótico, principalmente no horário de pico (abertura e fechamento de bancos, comércio e escolas).
 As ruas e avenidas estreitas não comportam a crescente quantidade de carros, mas é possível se locomover sem enfrentar grandes engarrafamentos.
 
-Os principais pontos de trânsito lento no horário de pico são:
+Próximo à Unesp, os principais pontos de trânsito lento no horário de pico são:
 
-- [Quadrilátero central](https://google.com/maps/@-22.1240667,-51.3860823,17.1z)
-- [Rotatória do Lar dos Meninos](https://google.com/maps/@-22.0994998,-51.4257092,17.53z)
-- Próximo à Unesp
-  - [Rotatória dos mercados](https://google.com/maps/@-22.1145206,-51.4125003,18.79z)
-  - [Rotatória do museu](https://google.com/maps/@-22.116341,-51.4113028,18.79z)
-- Zona norte
-  - [Rua José Tarifa Conde](https://google.com/maps/@-22.1043062,-51.3896192,17.88z)
+- [Rotatória dos mercados](https://google.com/maps/@-22.1145206,-51.4125003,18.79z)
+- [Rotatória do museu](https://google.com/maps/@-22.116341,-51.4113028,18.79z)
 
-Nos dias de grandes vestibulares, o trânsito também é lento nos locais de prova. Se for fazer alguma prova, planeje sair com antedecência.
+Nos dias de grandes vestibulares e concursos, o trânsito também é lento nos locais de prova. Se for fazer alguma prova, planeje sair com antedecência.
 
-O [preço dos combustíveis](https://precodoscombustiveis.com.br/pt-br/city/brasil/sao-paulo/presidente-prudente/3732) varia muito pouco entre os postos, menos de 10 centavos de diferença.
+O [preço dos combustíveis](https://precodoscombustiveis.com.br/pt-br/city/brasil/sao-paulo/presidente-prudente/3732) varia muito pouco entre os postos, frequentemente a diferença é menor que 10 centavos.
 Algumas bandeiras de postos de combustíveis oferecem desconto através de aplicativos ou dependendo do método de pagamento.
 
 #### Bicicleta
 
+É possível locomover-se de bicicleta, mas é preciso ter cuidado com os motoristas. Algumas partes da cidade possuem relevo que dificulta o transporte por bicicleta.
+
 A cidade conta com algumas ciclovias, infames por serem pouco extensas, mal planejadas e perigosas.
 
 Não existe serviço de compartilhamento de bicicletas, como o bike Itaú de São Paulo.
-
-O relevo de grande parte da cidade dificulta o transporte por bicicleta.
 
 #### Aplicativos de corrida
 
@@ -45,11 +40,12 @@ Estudantes tem direito ao cartão escolar, que dá 50% de desconto na tarifa dur
 
 O valor da tarifa, em 2023, é de R$ 5,00.
 
-São frequentes as reclamações sobre os serviços prestados.
+São frequentes as reclamações sobre os serviços prestados, como ônibus quebrados, ar-condicionado fraco, superlotação, etc.
 
 #### Táxi
 
 A cidade conta com táxis comuns e rádio taxis 24 horas.  
-Há pontos de taxi no centro da cidade, no terminal rodoviário, aeroporto, PrudenShopping e Parque Shopping.
+Há pontos de taxi no centro da cidade, no terminal rodoviário, aeroporto, PrudenShopping, Parque Shopping e entre outras localidades.
 
-Para solicitar ou agendar um rádio taxi, ligue para (18) 3223-3030.
+Para solicitar ou agendar um rádio taxi da cooperativa local, ligue para [(18) 3223-3030](tel:+551832233030).  
+Ou você também pode utilizar o [Chame Car](https://wa.me/5518997534910) pelo WhatsApp.
