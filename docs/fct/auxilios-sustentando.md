@@ -1,12 +1,17 @@
+---
+sidebar_label: "Bolsas - Se sustentando durante a graduação"
+slug: /bolsas
+---
+
 # Se sustentando durante a graduação
 
-#### Trabalhando
+## Trabalhando
 
 O estudante pode trabalhar durante a graduação. Estar cursando o ensino superior pode ser um diferencial
 no seu currículo.  
 No entanto, tome cuidado para que as atividades não atrapalhem o seu rendimento acadêmico.
 
-#### Estagiando
+## Estagiando
 
 O objetivo do estágio é pedagógico, para que o estudante adquira experiência através da prática, enriquecendo o currículo, sem gerar vínculo empregatício.  
 No entanto, pode ocorrer de o estágio não ser favorável quando a empresa enxerga o estagiário como mão de obra barata.  
@@ -22,7 +27,7 @@ A remuneração do estágio obrigatório é opcional.
 
 Leia a [página de estágio da FCT](https://www.fct.unesp.br/#!/administracao/graduacao/estagios/termo-de-compromisso-de-estagio/) e converse com o coordenador do seu curso para saber mais.
 
-#### Bolsas de estudos
+## Bolsas de estudos
 
 O estudante com um bom desempenho acadêmico pode contar com bolsas:
 

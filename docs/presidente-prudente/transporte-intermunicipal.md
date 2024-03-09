@@ -1,6 +1,6 @@
 # Transporte intermunicipal
 
-#### Ônibus
+## Ônibus
 
 O Terminal Rodoviário "Comendador José Lemes Soares" de Presidente Prudente é o principal _hub_ de transporte intermunicipal da região.
 
@@ -15,11 +15,7 @@ As principais empresas são:
 
 Conforme o [decreto estadual n° 30.945 de 12 de dezembro de 1989](https://www.al.sp.gov.br/repositorio/legislacao/decreto/1989/decreto-30945-12.12.1989.html) e a [portaria ARTESP nº 12 de 28 de setembro de 2005](http://www.artesp.sp.gov.br/Shared%20Documents/Portarias/Portaria-ARTESP-012-2005.pdf), estudantes têm direito a um desconto de 50% sobre o valor da tarifa do bilhete de passagem de ônibus convencionais nos deslocamentos entre o estabelecimento de ensino e sua residência, desde que tenham realizado um cadastro prévio com a empresa, que deve ser renovado a cada ano letivo.
 
-#### Buser
-
-A plataforma de fretamento colaborativo de ônibus também opera em Presidente Prudente.
-
-#### Aeroporto
+## Aeroporto
 
 O Aeroporto de Presidente Prudente "Adhemar de Barros" (PPB/SBDN) é um dos maiores aeroportos do estado em movimento.
 
@@ -29,8 +25,8 @@ Ele conta com as seguintes companhias aéreas:
 
 - Azul
 - Gol
-- Latam
+- VoePass
 
-#### Táxi
+## Táxi
 
 Você pode negociar viagens intermunicipais com taxistas.

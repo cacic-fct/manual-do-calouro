@@ -1,6 +1,12 @@
+---
+
+sidebar_label: Transporte na cidade
+
+---
+
 # Se locomovendo pela cidade
 
-#### Veículo próprio
+## Veículo próprio
 
 O trânsito da cidade é violento e caótico, principalmente no horário de pico (abertura e fechamento de bancos, comércio e escolas).
 As ruas e avenidas estreitas não comportam a crescente quantidade de carros, mas é possível se locomover sem enfrentar grandes engarrafamentos.
@@ -15,7 +21,7 @@ Nos dias de grandes vestibulares e concursos, o trânsito também é lento nos l
 O [preço dos combustíveis](https://precodoscombustiveis.com.br/pt-br/city/brasil/sao-paulo/presidente-prudente/3732) varia muito pouco entre os postos, frequentemente a diferença é menor que 10 centavos.
 Algumas bandeiras de postos de combustíveis oferecem desconto através de aplicativos ou dependendo do método de pagamento.
 
-#### Bicicleta
+## Bicicleta
 
 É possível locomover-se de bicicleta, mas é preciso ter cuidado com os motoristas. Algumas partes da cidade possuem relevo que dificulta o transporte por bicicleta.
 
@@ -23,7 +29,7 @@ A cidade conta com algumas ciclovias, infames por serem pouco extensas, mal plan
 
 Não existe serviço de compartilhamento de bicicletas, como o bike Itaú de São Paulo.
 
-#### Aplicativos de corrida
+## Aplicativos de corrida
 
 Os motoristas de aplicativos são credenciados pela prefeitura municipal e AMOESP - Associação dos Motoristas de Aplicativo do Oeste Paulista.
 
@@ -33,7 +39,7 @@ Na cidade, operam os seguintes aplicativos:
 - InDriver
 - Uber
 
-#### Ônibus
+## Ônibus
 
 Os ônibus da cidade são operados pela [SOU Presidente Prudente](https://soupresidenteprudente.com.br/).  
 Estudantes tem direito ao cartão escolar, que dá 50% de desconto na tarifa durante o período de aulas.
@@ -42,7 +48,7 @@ O valor da tarifa, em 2023, é de R$ 5,00.
 
 São frequentes as reclamações sobre os serviços prestados, como ônibus quebrados, ar-condicionado fraco, superlotação, etc.
 
-#### Táxi
+## Táxi
 
 A cidade conta com táxis comuns e rádio taxis 24 horas.  
 Há pontos de taxi no centro da cidade, no terminal rodoviário, aeroporto, PrudenShopping, Parque Shopping e entre outras localidades.

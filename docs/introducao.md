@@ -1,3 +1,9 @@
+---
+slug: /
+---
+
+import ImageSwitcher from '../components/ImageSwitcher';
+
 # Introdução
 
 Este **manual** tem como proposta a apresentação dos pontos essenciais para a compreensão do ambiente acadêmico da **FCT**,
@@ -9,3 +15,5 @@ na Universidade em nível pessoal, de curso e de corpo discente como um todo.
 Servirá, também, como um guia inicial de compreensão do **movimento estudantil da FCT**,
 contendo informações sobre a organização e o funcionamento de assembleias, plenárias
 e demais mecanismos de articulação e luta por uma universidade de qualidade e pelos interesses dos estudantes.
+
+<ImageSwitcher darkImageSrc="intro/fists-dark.svg" lightImageSrc="intro/fists-light.svg" />

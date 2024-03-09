@@ -16,4 +16,4 @@ Todas as operadoras entregam internet com fibra óptica, com excessão da Claro,
 A qualidade e estabilidade do serviço depende da sua localização e da qualidade da instalação na sua residência. A possibilidade de instalação está condicionada a infraestrutura presente na sua região, logo, nem todas as operadoras podem atender no seu endereço.  
 Todos os planos possuem CGNAT por padrão.  
 Todas as operadoras possuem altos índices de reclamação. Os provedores regionais são criticados pelo mau atendimento.  
-Consulte seus vizinhos e o [Lag Report da Riot](https://lagreport.br.leagueoflegends.com/pt/results/br/33495) para saber mais sobre a qualidade dos serviços.
+Consulte seus vizinhos e o [Riot Lag Report](https://lagreport.br.leagueoflegends.com/pt/results/br/33495) para saber mais sobre a qualidade dos serviços.
