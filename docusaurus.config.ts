@@ -38,7 +38,7 @@ const config: Config = {
           routeBasePath: "/",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/cacic-fct/manual-do-calouro/tree/main/",
         },
         blog: false,
         theme: {
