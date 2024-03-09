@@ -8,6 +8,8 @@ Estão reunidas as informações que todos os calouros precisam saber para enten
 Todos podem contribuir com o manual do calouro através de _pull requests_, _discussions_ e _issues_.  
 Você pode criar novos arquivos ou alterar os já existentes, enviar sugestões e reportar erros.
 
+Os diretores do CACiC devem observar o cumprimento dos regulamentos internos da entidade sobre o manual.
+
 > Por questões legais, é necessário concordar com o "Contrato de concessão de licença" e/ou a "Política de submissão de ideias não solicitadas".
 
 ### Seções
