@@ -14,7 +14,7 @@ const sidebars: SidebarsConfig = {
   bookSidebar: [
     { type: "doc", label: "Introdução", id: "introducao" },
     { type: "category", label: "A FCT", items: ["fct/sobre", "fct/cursos", "fct/entidades"] },
-    { type: "doc", label: "Movimento estudantil", id: "movimento-estudantil" },
+    { type: "doc", label: "Movimento estudantil", id: "fct/movimento-estudantil" },
     { type: "category", label: "Auxílios e bolsas", items: ["fct/auxilios-permanencia", "fct/auxilios-sustentando"] },
     {
       type: "category",
