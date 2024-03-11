@@ -54,12 +54,6 @@ export default defineConfig({
           },
         },
         {
-          label: "Reference",
-          autogenerate: {
-            directory: "reference",
-          },
-        },
-        {
           label: "Glossário",
           link: "/glossario",
         },
