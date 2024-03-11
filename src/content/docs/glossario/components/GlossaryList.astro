@@ -1,0 +1,136 @@
+---
+const words = [
+  {
+    word: "ACC",
+    description: "Atividades complementares ao curso.",
+  },
+  {
+    word: "CAPES",
+    description: "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior.",
+  },
+  {
+    word: "CR",
+    description: "Coeficiente de rendimento. Índice que mede o desempenho acadêmico do aluno ao longo do curso.",
+  },
+  {
+    word: "Central de acessos",
+    description: "Portal que reune os sistemas on-line da Unesp. Coloquialmente e incorretamente chamado de 'SISGRAD'.",
+  },
+  {
+    word: "DP",
+    description: "Dependência. Quando se fica retido em uma disciplina.",
+  },
+  {
+    word: "Discente",
+    description: "Aluno.",
+  },
+  {
+    word: "Docente",
+    description: "Professor.",
+  },
+  {
+    word: "Exame",
+    description: "Prova de recuperação.",
+  },
+  {
+    word: "FAPESP",
+    description: "Fundação de amparo à pesquisa do estado de São Paulo.",
+  },
+  {
+    word: "IC",
+    description: "Iniciação científica.",
+  },
+  {
+    word: "Jopannas de pobre",
+    description: "Cantina da área sul do câmpus, que possui preços mais em conta.",
+  },
+  {
+    word: "Jopannas de rico",
+    description: "O Biju's café, cantina da área central do câmpus, que possui preços mais altos.",
+  },
+  {
+    word: "PIBIC",
+    description: "Programa institucional de bolsas de iniciação científica.",
+  },
+  {
+    word: "PIBITI",
+    description: "Programa institucional de bolsas de iniciação em desenvolvimento tecnológico e inovação.",
+  },
+  {
+    word: "Prova substitutiva",
+    description: "Substitui a nota de uma prova na qual o aluno não compareceu.",
+  },
+  {
+    word: "RER",
+    description: "Regime especial de recuperação.",
+  },
+  {
+    word: "RU",
+    description: "Restaurante universitário.",
+  },
+  {
+    word: "SISGRAD",
+    description: "O sistema on-line dos alunos da graduação da Unesp.",
+  },
+  {
+    word: "Sub",
+    description: "Prova substitutiva.",
+  },
+  {
+    word: "TCC",
+    description: "Trabalho de conclusão de curso.",
+  },
+  {
+    word: "TG",
+    description: "Trabalho de graduação. Também conhecido como TCC.",
+  },
+  {
+    word: "TG",
+    description: "Tiro de guerra. Uma forma de prestar o serviço militar obrigatório.",
+  },
+];
+
+let sortedWords = words.sort((a, b) => {
+  if (a.word < b.word) {
+    return -1;
+  }
+  if (a.word > b.word) {
+    return 1;
+  }
+  return 0;
+});
+
+sortedWords = sortedWords.map((wordItem, index) => {
+  const isLastItem: boolean = index === sortedWords.length - 1;
+  const hasPunctuationInEnd: boolean = /[.!?;]$/.test(wordItem.description[wordItem.description.length - 1]);
+
+  if (hasPunctuationInEnd) {
+    wordItem.description = wordItem.description.slice(0, -1);
+  }
+
+  return {
+    ...wordItem,
+    description:
+      wordItem.description.charAt(0).toUpperCase() + wordItem.description.slice(1) + (isLastItem ? "." : ";"),
+  };
+});
+---
+
+<style>
+  .word {
+    font-weight: bold;
+  }
+  li {
+    margin-bottom: 0.5rem;
+    scroll-margin-top: 3.75rem;
+  }
+</style>
+<ul>
+  {
+    sortedWords.map((wordItem) => (
+      <li id={wordItem.word.toLowerCase()}>
+        <span class="word">{wordItem.word}</span>: {wordItem.description}
+      </li>
+    ))
+  }
+</ul>
