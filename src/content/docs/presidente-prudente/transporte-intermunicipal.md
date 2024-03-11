@@ -23,7 +23,7 @@ Conforme o [decreto estadual n° 30.945 de 12 de dezembro de 1989](https://www.a
 
 O Aeroporto de Presidente Prudente "Adhemar de Barros" (PPB/SBDN) é um dos maiores aeroportos do estado em movimento.
 
-Em 2021, o aeroporto foi concedido por 30 anos à iniciativa privada, por meio da ASP (Consórcio Aeroportos Paulista), em leilão realizado pelo governo João Dória. Foram prometidos R$ 52 milhões em investimentos a serem realizados ao longo deste período de tempo.
+Em 2021, o aeroporto foi concedido por 30 anos à iniciativa privada, por meio da ASP (Consórcio Aeroportos Paulista), empresa composta pela Socicam e pela Dix Empreendimentos, em leilão realizado pelo governo João Dória. Foram prometidos R$ 52 milhões em investimentos a serem realizados ao longo deste período de tempo.
 
 Ele conta com as seguintes companhias aéreas:
 
