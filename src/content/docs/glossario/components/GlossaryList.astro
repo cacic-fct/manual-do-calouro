@@ -102,7 +102,7 @@ let sortedWords = words.sort((a, b) => {
 
 sortedWords = sortedWords.map((wordItem, index) => {
   const isLastItem: boolean = index === sortedWords.length - 1;
-  const hasPunctuationInEnd: boolean = /[.!?;]$/.test(wordItem.description[wordItem.description.length - 1]);
+  const hasPunctuationInEnd: boolean = /[.!?;]$/.test(wordItem.description?.[wordItem.description.length - 1] ?? "");
 
   if (hasPunctuationInEnd) {
     wordItem.description = wordItem.description.slice(0, -1);
