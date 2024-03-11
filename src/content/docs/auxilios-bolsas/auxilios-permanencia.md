@@ -2,7 +2,7 @@
 title: Auxílios permanência
 ---
 
-:::warning[Aviso]
+:::caution[Aviso]
 
 As informações e os valores apresentados podem ter sido atualizados!  
 [Procure o site da FCT para mais detalhes](https://www.fct.unesp.br/#!/administracao/secao-tecnica-academica/bolsas-auxilios/auxilio-permanencia-estudantil/).
