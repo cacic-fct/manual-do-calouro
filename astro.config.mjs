@@ -41,7 +41,7 @@ export default defineConfig({
           },
         },
         {
-          label: "Auxílios e Bolsas",
+          label: "Auxílios e bolsas",
           autogenerate: {
             directory: "auxilios-bolsas",
           },
@@ -56,6 +56,18 @@ export default defineConfig({
         {
           label: "Glossário",
           link: "/glossario",
+        },
+        {
+          label: "Página do calouro",
+          link: "/pagina-do-calouro",
+        },
+        {
+          label: "Contato das entidades",
+          link: "/contatos",
+        },
+        {
+          label: "Sobre o Manual",
+          link: "/sobre",
         },
       ],
       customCss: ["./src/tailwind.css"],

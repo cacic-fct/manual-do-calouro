@@ -1,3 +1,4 @@
+---
 const courses = [
   {
     name: "Arquitetura e urbanismo",
@@ -49,46 +50,37 @@ const courses = [
   },
 ];
 
-const css = `
-table {
-    text-align: center;
-}
-.course-name {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 1.25em;
-}
-`;
-
 let organizedCourses: { name: string; description: string }[][] = [];
 
 // Organize the courses into rows of 3
 for (let i = 0; i < courses.length; i += 3) {
   organizedCourses.push(courses.slice(i, i + 3));
 }
+---
 
-export default function CoursesTable(): JSX.Element {
-  return (
-    <>
-      <style>{css}</style>
-
-      <table>
-        <tbody>
-          {
-            // Render 3 courses per row
-            organizedCourses.map((row, i) => (
-              <tr key={i}>
-                {row.map((course, j) => (
-                  <td key={j}>
-                    <p className="course-name">{course.name}</p>
-                    <p>{course.description}</p>
-                  </td>
-                ))}
-              </tr>
-            ))
-          }
-        </tbody>
-      </table>
-    </>
-  );
-}
+<style>
+  table {
+    text-align: center;
+  }
+  .course-name {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.25em;
+  }
+</style>
+<table>
+  <tbody>
+    {
+      organizedCourses.map((row) => (
+        <tr>
+          {row.map((course) => (
+            <td>
+              <div class="course-name">{course.name}</div>
+              <div>{course.description}</div>
+            </td>
+          ))}
+        </tr>
+      ))
+    }
+  </tbody>
+</table>

@@ -1,5 +1,7 @@
 ---
 title: Sustentando-se durante a graduação
+sidebar:
+  order: 2
 ---
 
 ## Trabalhando

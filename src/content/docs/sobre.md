@@ -1,11 +1,26 @@
-Copyright (c) 2024 Centro Acadêmico de Ciência da Computação (CACiC) da FCT–Unesp 
+---
+title: Sobre
+---
 
-Content / Conteúdo
-All Rights Reserved. Todos os direitos reservados.
+O manual do calouro é uma obra do CACiC – o Centro Acadêmico de Ciência da Computação – e dos [seus contribuidores](https://github.com/cacic-fct/manual-do-calouro/contributors).
 
+[Saiba como contribuir para o manual do calouro](https://github.com/cacic-fct/manual-do-calouro).
 
-Website
-Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
+<hr/>
+
+# Licenças
+
+O CACiC detém os direitos autorais do conteúdo do manual do calouro.
+
+O site que hospeda o manual do calouro é licenciado sob a seguinte licença:
+
+## Modified BSD License
+
+_Copyright ©_ Centro Acadêmico de Ciência da Computação (CACiC) da FCT–Unesp  
+_All rights reserved._
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
 
 1. Redistributions of source code must retain the above copyright
    notice, this list of conditions and the following disclaimer.
