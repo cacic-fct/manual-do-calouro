@@ -122,3 +122,26 @@ const socialMedia = {
   youtube: "https://youtube.com/channel/",
 };
 ---
+
+<!-- TODO: Deixar bonito, transformar em cards, etc -->
+<ul>
+  {
+    contacts.map((contact) => (
+      <li>
+        <h2>{contact.course}</h2>
+        <p>{contact.acronym}</p>
+        <p>{contact.email}</p>
+        <p>{contact.website}</p>
+        <ul>
+          {Object.entries(contact.social).map(([key, value]) => (
+            <li>
+              <a href={socialMedia[key as keyof typeof socialMedia] + value} target="_blank">
+                {key}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </li>
+    ))
+  }
+</ul>
