@@ -31,11 +31,6 @@ Ao criar um novo ponto ou polígono:
 
 ![](https://i.imgur.com/9RdkBMr.png)
 
-### Direitos autorais e direito de imagem
-
-Utilize apenas material de sua própria autoria ou que você possui autorização de uso concedida pelo autor por escrito.  
-Quando uma pessoa aparece em uma imagem, você deve haver autorização de uso de imagem concedida por ela por escrito.
-
 ## Website
 
 O website é construído com [Starlight](https://starlight.astro.build/) e pode ser acessado em [cacic-fct.github.io/manual-do-calouro](https://cacic-fct.github.io/manual-do-calouro).
