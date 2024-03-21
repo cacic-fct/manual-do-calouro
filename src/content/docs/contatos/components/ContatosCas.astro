@@ -4,7 +4,7 @@ const contacts = [
     course: "Ciência da Computação",
     acronym: "CACiC",
     email: "cacic.fct@gmail.com",
-    website: "https://cacic-fct.web.app",
+    website: "https://cacic-fct.github.io",
     social: {
       facebook: "cacic.fct",
       instagram: "cacic.fct",
@@ -103,34 +103,8 @@ const contacts = [
   //   },
   // },
 ];
-const socialMedia = {
-  linkedin: "https://linkedin.com/in/",
-  twitter: "https://twitter.com/",
-  facebook: "https://fb.com/",
-  instagram: "https://instagram.com/",
-  youtube: "https://youtube.com/channel/",
-};
+
+import ContactCard from "./ContactCard.astro";
 ---
 
-<!-- TODO: Deixar bonito, transformar em cards, etc -->
-<ul>
-  {
-    contacts.map((contact) => (
-      <li>
-        <h2>{contact.course}</h2>
-        <p>{contact.acronym}</p>
-        <p>{contact.email}</p>
-        <p>{contact.website}</p>
-        <ul>
-          {Object.entries(contact.social).map(([key, value]) => (
-            <li>
-              <a href={socialMedia[key as keyof typeof socialMedia] + value} target="_blank">
-                {key}
-              </a>
-            </li>
-          ))}
-        </ul>
-      </li>
-    ))
-  }
-</ul>
+<ContactCard contactData={contacts} />
