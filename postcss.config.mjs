@@ -5,5 +5,5 @@ import postcssImport from "postcss-import";
 
 /** @type {import('postcss-load-config').Config} */
 export default {
-  plugins: [tailwind, autoprefixer, postcssMixins, postcssImport],
+  plugins: [autoprefixer, postcssMixins, postcssImport, tailwind],
 };
