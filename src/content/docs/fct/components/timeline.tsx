@@ -7,6 +7,7 @@ export default function Timeline(): JSX.Element {
   const currentYear: string = new Date().getFullYear().toString();
 
   // TODO: Atualizar cores quando o tema for alterado
+  // TODO: Fix css
   const colorMode: string = localStorage.getItem("starlight-theme") || "light";
 
   const css = `
