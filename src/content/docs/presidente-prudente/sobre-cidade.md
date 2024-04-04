@@ -6,7 +6,7 @@ sidebar:
 
 Presidente Prudente é conhecida como a capital do oeste paulista, por ser um dos principais polos industriais, culturais e de serviços da região oeste do estado.
 
-Sua população é de mais de 230.000 habitantes.
+Sua população é de mais de 225.000 (IBGE/2022) habitantes.
 
 ## Clima
 
