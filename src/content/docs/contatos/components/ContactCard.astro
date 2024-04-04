@@ -1,0 +1,71 @@
+---
+const { contactData } = Astro.props as { contactData: ContactInfo[] };
+import { Icon } from "astro-icon/components";
+
+const socialMediaUrls = {
+  linkedin: "https://linkedin.com/in/",
+  twitter: "https://twitter.com/",
+  facebook: "https://fb.com/",
+  instagram: "https://instagram.com/",
+  youtube: "https://youtube.com/channel/",
+};
+
+export interface ContactInfo {
+  course: string;
+  acronym: string;
+  email?: string;
+  website?: string;
+  phone?: string;
+  social?: {
+    instagram?: string;
+    facebook?: string;
+    youtube?: string;
+    linkedin?: string;
+    twitter?: string;
+  };
+}
+---
+
+<style>
+  .card {
+    max-width: 352px;
+  }
+</style>
+<div class="flex flex-wrap">
+  {
+    contactData.map((contact) => (
+      <div class="card w-96 bg-base-100 shadow-xl mx-1 align-stretch">
+        <div class="card-body">
+          <h3 class="card-title">{contact.course}</h3>
+          <p>{contact.acronym}</p>
+          <div class="card-actions">
+            {contact.email && (
+              <a href={`mailto:${contact.email}`} class="text-blue-500">
+                <Icon name="lucide:mail" class="w-6 h-6" />
+              </a>
+            )}
+            {contact.website && (
+              <a href={contact.website} class="text-blue-500">
+                <Icon name="lucide:globe" class="w-6 h-6" />
+              </a>
+            )}
+            {contact.phone && (
+              <a href={`tel:${contact.phone}`} class="text-blue-500">
+                <Icon name="lucide:phone" class="w-6 h-6" />
+              </a>
+            )}
+            {contact.social &&
+              Object.keys(contact.social).map((socialKey) => (
+                <a
+                  href={`${socialMediaUrls[socialKey as keyof typeof socialMediaUrls]}${contact.social![socialKey as keyof typeof contact.social]}`}
+                  class="text-blue-500"
+                >
+                  <Icon name={`lucide:${socialKey}`} class="w-6 h-6" />
+                </a>
+              ))}
+          </div>
+        </div>
+      </div>
+    ))
+  }
+</div>

@@ -1,0 +1,6 @@
+---
+const { lightSrc, darkSrc, ...imageAttrs } = Astro.props;
+---
+
+{darkSrc && <img src={darkSrc} {...imageAttrs} class:list={{ "light:sl-hidden": Boolean(lightSrc) }} loading="lazy" />}
+{lightSrc && <img src={lightSrc} {...imageAttrs} class="dark:sl-hidden" loading="lazy" />}
