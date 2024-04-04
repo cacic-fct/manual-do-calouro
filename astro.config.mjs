@@ -10,7 +10,7 @@ export default defineConfig({
   base: "/manual-do-calouro",
   integrations: [
     starlight({
-      title: "Manual do Calouro",
+      title: "Manual do calouro",
       logo: {
         dark: "./src/assets/cacic/icon-white.svg",
         light: "./src/assets/cacic/icon-color.svg",
@@ -65,7 +65,7 @@ export default defineConfig({
           link: "/contatos",
         },
         {
-          label: "Sobre o Manual",
+          label: "Sobre o manual",
           link: "/sobre",
         },
       ],
