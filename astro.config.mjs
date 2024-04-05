@@ -17,7 +17,7 @@ export default defineConfig({
         dark: "./src/assets/cacic/icon-white.svg",
         light: "./src/assets/cacic/icon-color.svg",
       },
-      favicon: "./src/assets/favicon.png",
+      favicon: "./favicon.png",
       defaultLocale: "pt-BR",
       locales: {
         root: {
