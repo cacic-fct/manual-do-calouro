@@ -5,9 +5,11 @@ import react from "@astrojs/react";
 
 import icon from "astro-icon";
 
+import { environment } from "/src/environments/environment";
+
 // https://astro.build/config
 export default defineConfig({
-  base: "/manual-do-calouro",
+  base: environment.basePath,
   integrations: [
     starlight({
       title: "Manual do calouro",
