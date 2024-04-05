@@ -1,6 +1,16 @@
 ---
 const { lightSrc, darkSrc, ...imageAttrs } = Astro.props;
+import { environment } from "../environments/environment.ts";
 ---
 
-{darkSrc && <img src={darkSrc} {...imageAttrs} class:list={{ "light:sl-hidden": Boolean(lightSrc) }} loading="lazy" />}
-{lightSrc && <img src={lightSrc} {...imageAttrs} class="dark:sl-hidden" loading="lazy" />}
+{
+  darkSrc && (
+    <img
+      src={`${environment.basePath}/${darkSrc}`}
+      {...imageAttrs}
+      class:list={{ "light:sl-hidden": Boolean(lightSrc) }}
+      loading="lazy"
+    />
+  )
+}
+{lightSrc && <img src={`${environment.basePath}/${lightSrc}`} {...imageAttrs} class="dark:sl-hidden" loading="lazy" />}
