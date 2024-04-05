@@ -14,8 +14,8 @@ export default defineConfig({
     starlight({
       title: "Manual do calouro",
       logo: {
-        dark: "./src/assets/cacic/icon-white.svg",
-        light: "./src/assets/cacic/icon-color.svg",
+        dark: "./src/assets/cacic/logo-white.svg",
+        light: "./src/assets/cacic/logo-color.svg",
       },
       favicon: "./favicon.png",
       defaultLocale: "pt-BR",
