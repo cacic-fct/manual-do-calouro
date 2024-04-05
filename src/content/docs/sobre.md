@@ -8,13 +8,13 @@ O manual do calouro é uma obra do CACiC – o Centro Acadêmico de Ciência da 
 
 <hr/>
 
-# Licenças
+## Licenças
 
 O CACiC detém os direitos autorais do conteúdo do manual do calouro.
 
 O site que hospeda o manual do calouro é licenciado sob a seguinte licença:
 
-## Modified BSD License
+### Modified BSD License
 
 _Copyright ©_ Centro Acadêmico de Ciência da Computação (CACiC) da FCT–Unesp  
 _All rights reserved._

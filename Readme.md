@@ -1,7 +1,8 @@
 # Manual do calouro
 
-O "manual do calouro" apresenta a FCT-Unesp e a cidade de Presidente Prudente para os novos ingressantes.  
-Estão reunidas as informações que todos os calouros precisam saber para entender seus novos espaços e aproveitar tudo que oferecem.
+O "manual do calouro" apresenta a FCT-Unesp e a cidade de Presidente Prudente para os novos ingressantes.
+
+Estão reunidas as informações que o calouro precisa saber para entender seus novos espaços e aproveitar tudo que oferecem.
 
 ## Contribuindo
 
@@ -31,13 +32,13 @@ Ao criar um novo ponto ou polígono:
 
 ![](https://i.imgur.com/9RdkBMr.png)
 
-## Website
+## Site
 
-O website é construído com [Starlight](https://starlight.astro.build/) e pode ser acessado em [cacic-fct.github.io/manual-do-calouro](https://cacic-fct.github.io/manual-do-calouro).
+O site é construído com [Starlight](https://starlight.astro.build/) e pode ser acessado em [cacic-fct.github.io/manual-do-calouro](https://cacic-fct.github.io/manual-do-calouro).
 
 ### Desenvolvimento
 
-Para iniciar o website localmente, primeiro instale as dependências com o [Bun](https://bun.sh/):
+Para iniciar o site localmente, primeiro instale as dependências com o [Bun](https://bun.sh/):
 
 ```bash
 bun install
