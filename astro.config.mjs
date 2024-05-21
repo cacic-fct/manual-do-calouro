@@ -18,7 +18,6 @@ export default defineConfig({
         light: "./src/assets/cacic/logo-color.svg",
       },
       favicon: "./favicon.png",
-      defaultLocale: "pt-BR",
       locales: {
         root: {
           label: "Português",
