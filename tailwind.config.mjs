@@ -22,7 +22,3 @@ export default {
   },
   plugins: [starlightPlugin(), require("daisyui")],
 };
-
-import starlightPlugin from "@astrojs/starlight-tailwind";
-
-import starlightPlugin from "@astrojs/starlight-tailwind";
