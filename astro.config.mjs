@@ -7,6 +7,8 @@ import icon from "astro-icon";
 
 import { environment } from "/src/environments/environment";
 
+import starlightDocSearch from "@cacic-fct/starlight-typesense-docsearch";
+
 // https://astro.build/config
 export default defineConfig({
   base: environment.basePath,
@@ -71,6 +73,23 @@ export default defineConfig({
         },
       ],
       customCss: ["./src/tailwind.css"],
+
+      plugins: [
+        starlightDocSearch({
+          typesenseCollectionName: "fct-app-docs",
+          typesenseServerConfig: {
+            nodes: [
+              {
+                host: "typesense.fctapp.yudi.me",
+                port: 443,
+                protocol: "https",
+              },
+            ],
+            apiKey: "XDqPffmOQDuPsoqF9ZvXk4lJYMYW6Oj9",
+          },
+          typesenseSearchParameters: {},
+        }),
+      ],
     }),
     tailwind({
       applyBaseStyles: false,

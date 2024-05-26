@@ -32,3 +32,27 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  scrape:
+    needs: deploy
+    runs-on: ubuntu-latest
+
+    env:
+      TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_KEY }}
+      TYPESENSE_HOST: typesense.fctapp.yudi.me
+      TYPESENSE_PORT: 443
+      TYPESENSE_PROTOCOL: https
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Run DocSearch Scraper
+        shell: bash
+        run: |
+          docker run \
+           -e TYPESENSE_API_KEY=${{ env.TYPESENSE_API_KEY }} \
+           -e TYPESENSE_HOST="${{ env.TYPESENSE_HOST }}" \
+           -e TYPESENSE_PORT="${{ env.TYPESENSE_PORT }}" \
+           -e TYPESENSE_PROTOCOL="${{ env.TYPESENSE_PROTOCOL }}" \
+           -e CONFIG="$(cat typesense-config.json | jq -r tostring)" \
+           typesense/docsearch-scraper
