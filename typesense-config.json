@@ -1,7 +1,7 @@
 {
   "index_name": "manual-do-calouro",
   "start_urls": [
-    "https://docs.fctapp.yudi.me/"
+    "https://cacic-fct.github.io/manual-do-calouro"
   ],
   "selectors": {
     "lvl0": {
