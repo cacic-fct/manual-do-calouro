@@ -5,8 +5,10 @@
   ],
   "selectors": {
     "lvl0": {
+      "selector": "/html/body/div/header/div/div[1]/a/span",
+      "type": "xpath",
       "global": true,
-      "default_value": "Documentação"
+      "default_value": "Manual do calouro"
     },
     "lvl1": "main h1",
     "lvl2": "main h2",
