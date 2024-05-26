@@ -76,7 +76,7 @@ export default defineConfig({
 
       plugins: [
         starlightDocSearch({
-          typesenseCollectionName: "fct-app-docs",
+          typesenseCollectionName: "manual-do-calouro",
           typesenseServerConfig: {
             nodes: [
               {
