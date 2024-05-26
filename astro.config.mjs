@@ -20,6 +20,17 @@ export default defineConfig({
         light: "./src/assets/cacic/logo-color.svg",
       },
       favicon: "./favicon.png",
+      head: [
+        {
+          tag: "meta",
+          attrs: {
+            name: "description",
+            content:
+              'O "manual do calouro" apresenta a FCT-Unesp e a cidade de Presidente Prudente para os novos ingressantes aprovados no vestibular da Vunesp. Estão reunidas as informações que o calouro precisa saber para entender seus novos espaços e aproveitar tudo que oferecem.',
+          },
+        },
+      ],
+
       locales: {
         root: {
           label: "Português",
