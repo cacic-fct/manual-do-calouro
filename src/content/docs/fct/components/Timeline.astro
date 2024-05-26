@@ -1,0 +1,232 @@
+---
+const data = [
+  {
+    "year": "1957",
+    "content": [
+      {
+        "title": "",
+        "body": "Criação da Faculdade de Filosofia Ciências e Letras de Presidente Prudente"
+      }
+    ]
+  },
+  {
+    "year": "1959",
+    "content": [
+      {
+        "title": "3 de maio de 1959\nPedagogia, Geografia",
+        "body": ""
+      }
+    ]
+  },
+  {
+    "year": "1963",
+    "content": [
+      {
+        "title": "Matemática, Ciências sociais",
+        "body": ""
+      }
+    ]
+  },
+  {
+    "year": "1969",
+    "content": [
+      {
+        "title": "Licenciatura em Ciências",
+        "body": ""
+      }
+    ]
+  },
+  {
+    "year": "1975",
+    "content": [
+      {
+        "title": "Estudos Sociais",
+        "body": ""
+      }
+    ]
+  },
+  {
+    "year": "1976",
+    "content": [
+      {
+        "title": "Unesp",
+        "body": "A Lei nº 952 criou a Universidade Estadual Paulista \"Júlio de Mesquita Filho\". A faculdade passa a se chamar Instituto de Planejamento e Estudos Ambientais - IPEA.\nSão extintos os Cursos de Pedagogia, Ciências Sociais e as licenciaturas em Ciências e em Estudos Sociais."
+      }
+    ]
+  },
+  {
+    "year": "1977",
+    "content": [
+      {
+        "title": "Engenharia Cartográfica",
+        "body": ""
+      }
+    ]
+  },
+  {
+    "year": "1984",
+    "content": [
+      {
+        "title": "Estatística",
+        "body": ""
+      },
+      {
+        "title": "Pós-graduação em Geografia",
+        "body": "Mestrado na área de concentração \"Ambiente e Sociedade\""
+      }
+    ]
+  },
+  {
+    "year": "1988",
+    "content": [
+      {
+        "title": "Educação Física\nFisioterapia\nPedagogia",
+        "body": "Incorporou o Instituto Municipal de Ensino Superior de Presidente Prudente (IMESPP)"
+      }
+    ]
+  },
+  {
+    "year": "1989",
+    "content": [
+      {
+        "title": "",
+        "body": "A denominação \"Instituto de Planejamento e Estudos Ambientais - IPEA\" foi alterada para \"Faculdade de Ciências e Tecnologia\" - FCT"
+      }
+    ]
+  },
+  {
+    "year": "1994",
+    "content": [
+      {
+        "title": "Pós-graduação em Geografia",
+        "body": "Doutorado na área de \"Desenvolvimento Regional e Planejamento Ambiental\""
+      }
+    ]
+  },
+  {
+    "year": "1997",
+    "content": [
+      {
+        "title": "Pós-graduação em Ciências Cartográficas",
+        "body": "Mestrado na área de \"Aquisição Análise e Representação de Informações Espaciais\"\nO único do país com essa denominação!"
+      }
+    ]
+  },
+  {
+    "year": "2000",
+    "content": [
+      {
+        "title": "Pós-graduação em Geografia",
+        "body": "Mestrado na área de concentração \"Formação Inicial e Continuada de Professores\""
+      },
+      {
+        "title": "Pós-graduação em Ciências Cartográficas",
+        "body": "Doutorado"
+      }
+    ]
+  },
+  {
+    "year": "2002",
+    "content": [
+      {
+        "title": "Pós-graduação em Geografia",
+        "body": "Doutorado na área de concentração \"Geografia Humana\""
+      }
+    ]
+  },
+  {
+    "year": "2004",
+    "content": [
+      {
+        "title": "Pós-graduação em Ciência e Tecnologia de Materiais",
+        "body": "Mestrado e Doutorado"
+      }
+    ]
+  },
+  {
+    "year": "2008",
+    "content": [
+      {
+        "title": "Pós-graduação em Fisioterapia",
+        "body": "Na área de concentração \"Avaliação e Intervenção em Fisioterapia\""
+      }
+    ]
+  }
+]
+
+
+---
+
+<ul class="timeline timeline-snap-icon max-md:timeline-compact timeline-vertical">
+{
+
+  data.map((item, index) => {
+    return (
+      <li>
+        {
+          () => {
+            if (index != 0) {
+              return (
+              <hr >
+              )
+            }
+          }
+        }
+
+        <div class="timeline-middle">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="h-5 w-5">
+            <path
+              fill-rule="evenodd"
+              d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.857-9.809a.75.75 0 00-1.214-.882l-3.483 4.79-1.88-1.88a.75.75 0 10-1.06 1.061l2.5 2.5a.75.75 0 001.137-.089l4-5.5z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </div>
+
+        { 
+  ()=> {
+    if (index % 2 == 0) {
+      return(    <div class="timeline-start timeline-box  md:text-end mb-10"> 
+          <time class="font-mono italic">{item.year}</time>
+{
+            item.content.map((content) => {
+              return (
+    
+              <div class="text-lg">{content.title}</div>
+          <div class="text-lg">{content.body}</div>
+              )
+            })
+
+
+          }
+      
+      </div>) 
+    } else {
+      return(   <div class="timeline-end timeline-box md:text-start mb-10"> 
+ <time class="font-mono italic">{item.year}</time>
+{
+            item.content.map((content) => {
+              return (
+             
+              <div class="text-lg">{content.title}</div>
+          <div class="text-lg">{content.body}</div>
+              )
+            })
+
+
+          }
+      
+      </div>
+      )
+    
+    }
+  }
+}
+<hr />
+
+</li>
+)
+  }
+)
+}
+
+</ul>
