@@ -91,7 +91,7 @@ export default defineConfig({
           typesenseServerConfig: {
             nodes: [
               {
-                host: "typesense.fctapp.yudi.me",
+                host: "typesense.cacic.dev.br",
                 port: 443,
                 protocol: "https",
               },
