@@ -1,33 +1,33 @@
-import { defineConfig } from "astro/config";
-import starlight from "@astrojs/starlight";
-import tailwind from "@astrojs/tailwind";
-import react from "@astrojs/react";
+import { defineConfig } from 'astro/config';
+import starlight from '@astrojs/starlight';
+import tailwind from '@astrojs/tailwind';
+import react from '@astrojs/react';
 
-import icon from "astro-icon";
+import icon from 'astro-icon';
 
-import { environment } from "/src/environments/environment";
+import { environment } from '/src/environments/environment';
 
-import starlightDocSearch from "@cacic-fct/starlight-typesense-docsearch";
+import starlightDocSearch from '@cacic-fct/starlight-typesense-docsearch';
 
-import starlightLinksValidator from "starlight-links-validator";
+import starlightLinksValidator from 'starlight-links-validator';
 
 // https://astro.build/config
 export default defineConfig({
   base: environment.basePath,
-  site: "https://manual.cacic.dev.br",
+  site: 'https://manual.cacic.dev.br',
   integrations: [
     starlight({
-      title: "Manual do calouro",
+      title: 'Manual do calouro',
       logo: {
-        dark: "./src/assets/cacic/logo-white.svg",
-        light: "./src/assets/cacic/logo-color.svg",
+        dark: './src/assets/cacic/logo-white.svg',
+        light: './src/assets/cacic/logo-color.svg',
       },
-      favicon: "./favicon.png",
+      favicon: './favicon.png',
       head: [
         {
-          tag: "meta",
+          tag: 'meta',
           attrs: {
-            name: "description",
+            name: 'description',
             content:
               'O "manual do calouro" apresenta a FCT-Unesp e a cidade de Presidente Prudente para os novos ingressantes aprovados no vestibular da Vunesp. Estão reunidas as informações que o calouro precisa saber para entender seus novos espaços e aproveitar tudo que oferecem.',
           },
@@ -36,70 +36,70 @@ export default defineConfig({
 
       locales: {
         root: {
-          label: "Português",
-          lang: "pt-BR",
+          label: 'Português',
+          lang: 'pt-BR',
         },
       },
       editLink: {
-        baseUrl: "https://github.com/cacic-fct/manual-do-calouro/edit/main/",
+        baseUrl: 'https://github.com/cacic-fct/manual-do-calouro/edit/main/',
       },
       social: {
-        github: "https://github.com/cacic-fct/manual-do-calouro",
+        github: 'https://github.com/cacic-fct/manual-do-calouro',
       },
       sidebar: [
         {
-          label: "Introdução",
-          link: "/",
+          label: 'Introdução',
+          link: '/',
         },
         {
-          label: "A FCT-Unesp",
+          label: 'A FCT-Unesp',
           autogenerate: {
-            directory: "A FCT-Unesp",
+            directory: 'A FCT-Unesp',
           },
         },
         {
-          label: "Auxílios e bolsas",
+          label: 'Auxílios e bolsas',
           autogenerate: {
-            directory: "Auxílios e bolsas",
+            directory: 'Auxílios e bolsas',
           },
         },
         {
-          label: "Presidente Prudente",
+          label: 'Presidente Prudente',
           autogenerate: {
-            directory: "Presidente Prudente",
+            directory: 'Presidente Prudente',
           },
         },
         {
-          label: "Glossário",
-          link: "/glossario",
+          label: 'Glossário',
+          link: '/glossario',
         },
         {
-          label: "Página do calouro",
-          link: "/pagina-do-calouro",
+          label: 'Página do calouro',
+          link: '/pagina-do-calouro',
         },
         {
-          label: "Contatos das entidades",
-          link: "/contatos-das-entidades",
+          label: 'Contatos das entidades',
+          link: '/contatos-das-entidades',
         },
         {
-          label: "Sobre o manual",
-          link: "/sobre",
+          label: 'Sobre o manual',
+          link: '/sobre',
         },
       ],
-      customCss: ["./src/tailwind.css"],
+      customCss: ['./src/tailwind.css'],
 
       plugins: [
         starlightDocSearch({
-          typesenseCollectionName: "manual-do-calouro",
+          typesenseCollectionName: 'manual-do-calouro',
           typesenseServerConfig: {
             nodes: [
               {
-                host: "typesense.cacic.dev.br",
+                host: 'typesense.cacic.dev.br',
                 port: 443,
-                protocol: "https",
+                protocol: 'https',
               },
             ],
-            apiKey: "XDqPffmOQDuPsoqF9ZvXk4lJYMYW6Oj9",
+            apiKey: 'XDqPffmOQDuPsoqF9ZvXk4lJYMYW6Oj9',
           },
           typesenseSearchParameters: {},
         }),

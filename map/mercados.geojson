@@ -1,257 +1,200 @@
 {
-    "type": "FeatureCollection",
-    "features": [
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Pastorinho"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.38548672199249,
-                    -22.124411727534895
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Vip Express"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.411050856113434,
-                    -22.129333858566124
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Mercado sublime"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.41234636306762,
-                    -22.128841901663623
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Avenida"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.39368623495102,
-                    -22.133043357070004
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Makro atacadista"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.44167900085449,
-                    -22.11802586976133
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Atacadão"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.44206523895264,
-                    -22.119636027713824
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "CEASA/CEAGESP"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.4350700378418,
-                    -22.121743120214656
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Atacadão"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.4274525642395,
-                    -22.12604665938504
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Estrela",
-                "description": "Possui restaurante"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.39060974121094,
-                    -22.126195740373007
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Mercado Municipal"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.39332413673401,
-                    -22.12632494376835
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Carrefour"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.40987873077392,
-                    -22.11584417578781
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Sam's Club",
-                "description": "Ótima variedade de produtos importados e bebidas. É necessário pagar uma anuidade para fazer compras aqui."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.41323685646057,
-                    -22.11502913794217
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Max Atacadista",
-                "description": "Itens promocionais com preços competitivos."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.412121057510376,
-                    -22.113732025313944
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Max Atacadista"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.3880455493927,
-                    -22.099666781386375
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Avenida",
-                "description": "Possui restaurante"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.38672053813934,
-                    -22.098821828089466
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Super Muffato"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.390448808670044,
-                    -22.13126440011689
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Ulian",
-                "description": "Carnes baratas."
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.378175020217896,
-                    -22.139786294392348
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Assaí Atacadista"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.4142507314682,
-                    -22.137808664580646
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "name": "Supermercados Nagai"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -51.386168003082275,
-                    -22.128352427687236
-                ]
-            }
-        },
-    ]
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supermercados Pastorinho"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.38548672199249, -22.124411727534895]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Vip Express"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.411050856113434, -22.129333858566124]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercado sublime"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.41234636306762, -22.128841901663623]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supermercados Avenida"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.39368623495102, -22.133043357070004]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Makro atacadista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.44167900085449, -22.11802586976133]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atacadão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.44206523895264, -22.119636027713824]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "CEASA/CEAGESP"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4350700378418, -22.121743120214656]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Atacadão"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4274525642395, -22.12604665938504]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supermercados Estrela",
+        "description": "Possui restaurante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.39060974121094, -22.126195740373007]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Mercado Municipal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.39332413673401, -22.12632494376835]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Carrefour"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.40987873077392, -22.11584417578781]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Sam's Club",
+        "description": "Ótima variedade de produtos importados e bebidas. É necessário pagar uma anuidade para fazer compras aqui."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.41323685646057, -22.11502913794217]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Max Atacadista",
+        "description": "Itens promocionais com preços competitivos."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.412121057510376, -22.113732025313944]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Max Atacadista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.3880455493927, -22.099666781386375]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supermercados Avenida",
+        "description": "Possui restaurante"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.38672053813934, -22.098821828089466]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Super Muffato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.390448808670044, -22.13126440011689]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supermercados Ulian",
+        "description": "Carnes baratas."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.378175020217896, -22.139786294392348]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Assaí Atacadista"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.4142507314682, -22.137808664580646]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Supermercados Nagai"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-51.386168003082275, -22.128352427687236]
+      }
+    }
+  ]
 }
