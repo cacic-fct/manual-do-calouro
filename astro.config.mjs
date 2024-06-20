@@ -14,7 +14,7 @@ import starlightLinksValidator from "starlight-links-validator";
 // https://astro.build/config
 export default defineConfig({
   base: environment.basePath,
-  site: "manual.cacic.dev.br",
+  site: "https://manual.cacic.dev.br",
   integrations: [
     starlight({
       title: "Manual do calouro",
