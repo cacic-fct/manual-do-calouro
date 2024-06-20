@@ -1,8 +1,7 @@
 Copyright (c) 2024 Centro Acadêmico de Ciência da Computação (CACiC) da FCT–Unesp 
 
 Content / Conteúdo
-All Rights Reserved. Todos os direitos reservados.
-
+CC BY-NC-SA 4.0
 
 Website
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:

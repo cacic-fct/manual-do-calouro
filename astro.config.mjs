@@ -9,6 +9,8 @@ import { environment } from "/src/environments/environment";
 
 import starlightDocSearch from "@cacic-fct/starlight-typesense-docsearch";
 
+import starlightLinksValidator from "starlight-links-validator";
+
 // https://astro.build/config
 export default defineConfig({
   base: environment.basePath,
@@ -51,19 +53,19 @@ export default defineConfig({
         {
           label: "A FCT-Unesp",
           autogenerate: {
-            directory: "fct",
+            directory: "A FCT-Unesp",
           },
         },
         {
           label: "Auxílios e bolsas",
           autogenerate: {
-            directory: "auxilios-bolsas",
+            directory: "Auxílios e bolsas",
           },
         },
         {
           label: "Presidente Prudente",
           autogenerate: {
-            directory: "presidente-prudente",
+            directory: "Presidente Prudente",
           },
         },
         {
@@ -75,8 +77,8 @@ export default defineConfig({
           link: "/pagina-do-calouro",
         },
         {
-          label: "Contato das entidades",
-          link: "/contatos",
+          label: "Contatos das entidades",
+          link: "/contatos-das-entidades",
         },
         {
           label: "Sobre o manual",
@@ -100,6 +102,7 @@ export default defineConfig({
           },
           typesenseSearchParameters: {},
         }),
+        starlightLinksValidator(),
       ],
     }),
     tailwind({
