@@ -1,7 +1,7 @@
 {
   "index_name": "manual-do-calouro",
   "start_urls": [
-    "https://cacic-fct.github.io/manual-do-calouro"
+    "https://manual.cacic.dev.br"
   ],
   "selectors": {
     "lvl0": {
