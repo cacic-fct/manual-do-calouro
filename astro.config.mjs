@@ -71,7 +71,7 @@ export default defineConfig({
         },
         {
           label: 'Glossário',
-          link: '/glossario',
+          link: '/glossário',
         },
         {
           label: 'Página do calouro',
