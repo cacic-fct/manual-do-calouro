@@ -75,11 +75,11 @@ export default defineConfig({
         },
         {
           label: 'Página do calouro',
-          link: '/página do calouro',
+          link: '/página–do-calouro',
         },
         {
           label: 'Contatos das entidades',
-          link: '/contatos das entidades',
+          link: '/contatos-das-entidades',
         },
         {
           label: 'Sobre o manual',
