@@ -25,6 +25,14 @@ export default defineConfig({
       favicon: './favicon.png',
       head: [
         {
+          tag: 'script',
+          attrs: {
+            src: 'https://plausible.cacic.dev.br/js/script.js',
+            'data-domain': 'manual.cacic.dev.br',
+            defer: true,
+          },
+        },
+        {
           tag: 'meta',
           attrs: {
             name: 'description',
