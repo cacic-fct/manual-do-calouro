@@ -75,7 +75,7 @@ export default defineConfig({
         },
         {
           label: 'Página do calouro',
-          link: '/página–do-calouro',
+          link: '/página-do-calouro',
         },
         {
           label: 'Contatos das entidades',
