@@ -40,6 +40,6 @@ Além dos ecopontos, seu lixo eletrônico pode ser descartado em grandes mercado
 
 A câmara de vereadores do município é composta por 13 vereadores.  
 Todas as sessões da câmara são públicas e, frequentemente, contam com a presença de servidores da Unesp.
-É possível entrar em contato com os vereadores através do [site da câmara municipal](https://www.camarapprudente.sp.gov.br).
+É possível entrar em contato com os vereadores por meio do [site da câmara municipal](https://www.camarapprudente.sp.gov.br).
 
 As notícias sobre o poder público podem ser acompanhadas pelo [site da prefeitura](http://presidenteprudente.sp.gov.br).

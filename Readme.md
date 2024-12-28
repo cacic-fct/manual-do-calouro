@@ -18,7 +18,7 @@ Para contribuir com imagens ou artes, disponibilize-as em um serviço de hospeda
 
 ### Mapa
 
-Os pontos no mapa são gerados através de arquivos `.geojson`.  
+Os pontos no mapa são gerados por meio de arquivos `.geojson`.  
 Cada categoria de lugar deve possuir seu próprio arquivo (ex: mercados, compras, lazer).  
 Para editar estes arquivos, abra-os no [geojson.io](https://geojson.io) ou outra ferramenta de sua preferência.
 

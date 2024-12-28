@@ -12,7 +12,7 @@ No entanto, tome cuidado para que as atividades não atrapalhem o seu rendimento
 
 ## Estagiando
 
-O objetivo do estágio é pedagógico, para que o estudante adquira experiência através da prática, enriquecendo o currículo, sem gerar vínculo empregatício.  
+O objetivo do estágio é pedagógico, para que o estudante adquira experiência por meio da prática, enriquecendo o currículo, sem gerar vínculo empregatício.  
 No entanto, pode ocorrer de o estágio não ser favorável quando a empresa enxerga o estagiário como mão de obra barata.  
 Para evitar inconvenientes, o estágio pode ser realizado junto a um agente de integração entre empresa e escola,
 como o [CIEE](https://portal.ciee.org.br/), que garantirá o cumprimento da [lei do estágio](http://www.planalto.gov.br/ccivil_03/_ato2007-2010/2008/lei/l11788.htm).
