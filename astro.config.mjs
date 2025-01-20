@@ -107,7 +107,7 @@ export default defineConfig({
                 protocol: 'https',
               },
             ],
-            apiKey: 'SXftD7fp9qeY5BtmFxnbQvp4DdyneBx1',
+            apiKey: 'LsaEBktA2AE38kU4CWXSPQPqiwIOriiv',
           },
           typesenseSearchParameters: {},
         }),
