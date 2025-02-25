@@ -90,6 +90,10 @@ export default defineConfig({
           link: '/contatos-das-entidades',
         },
         {
+          label: 'Canais de denúncia',
+          link: '/canais-de-denúncia',
+        },
+        {
           label: 'Sobre o manual',
           link: '/sobre',
         },

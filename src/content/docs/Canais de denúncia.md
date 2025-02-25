@@ -30,13 +30,13 @@ Vítimas de violência podem procurar apoio institucional por meio do [Acolhe Un
 
 ## Canais públicos
 
-_Memorize_ os telefones de emergência:
+**_Memorize_ os telefones de emergência:**
 
 - **Polícia Militar: 190** - Casos de segurança pública, como assaltos, roubos, sequestros, violência, entre outros;
 - **Emergência em Saúde: 192** - Acidentes, mal súbito, entre outros;
 - **Corpo de Bombeiros: 193** - Incêndio, desabamentos, acidentes com produtos perigosos, entre outros.
 
-Outros telefones úteis:
+**Outros telefones úteis:**
 
 - **Disque Direitos Humanos: 100** - Denúncias de violações de direitos humanos e de discriminação;
 - **Central de Atendimento à Mulher: 180** - Orientação sobre leis, direitos das mulheres e serviços da rede de atendimento;
@@ -47,7 +47,7 @@ Outros telefones úteis:
 - **Polícia Civil: 197** - Orientações sobre como proceder em casos de crimes e atendimento sobre boletins de ocorrência;
 - **Defesa Civil: 199** - Situações de calamidade, como em acidentes com muitas vítimas.
 
-Recursos adicionais:
+**Recursos adicionais:**
 
 - **Delegacia de Defesa da Mulher: 180** - Atendimento especializado para vítimas de violação dos direitos das mulheres;
 - [**Ministério Público**](https://sis.mpsp.mp.br/atendimentocidadao) - Recebe denúncias de delitos de intolerância.
