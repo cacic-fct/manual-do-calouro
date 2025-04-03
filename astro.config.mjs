@@ -27,7 +27,7 @@ export default defineConfig({
         {
           tag: 'script',
           attrs: {
-            src: 'https://plausible.cacic.dev.br/js/script.js',
+            src: 'https://plsbl.cacic.dev.br/js/script.js',
             'data-domain': 'manual.cacic.dev.br',
             defer: true,
           },
