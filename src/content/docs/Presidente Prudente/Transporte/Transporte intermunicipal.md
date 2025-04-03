@@ -29,7 +29,6 @@ Ele conta com as seguintes companhias aéreas:
 
 - Azul
 - Gol
-- VoePass
 
 ## Táxi
 
