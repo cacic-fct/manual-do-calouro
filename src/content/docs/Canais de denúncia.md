@@ -2,7 +2,7 @@
 title: Canais de denúncia
 ---
 
-## Se você ver algo, diga algo
+## Se você vir algo, diga algo
 
 Você também é responsável pela segurança de todos. Assim que você presenciar qualquer comportamento inadequado, perigo potencial ou atividade suspeita, tome uma atitude!
 
