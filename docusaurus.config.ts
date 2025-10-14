@@ -30,7 +30,6 @@ const config: Config = {
   deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
@@ -40,6 +39,12 @@ const config: Config = {
     locales: ['pt-BR'],
   },
 
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'throw',
+      onBrokenMarkdownImages: 'throw',
+    },
+  },
   presets: [
     [
       'classic',
@@ -180,7 +185,7 @@ const config: Config = {
       translations: {} satisfies DocSearchTranslations,
     } satisfies DocSearchProps,
   } satisfies Preset.ThemeConfig,
-  plugins: ['./src/plugins/tailwind.js'],
+  plugins: ['./src/plugins/tailwind.js', '@docusaurus/plugin-sitemap'],
 };
 
 export default config;
