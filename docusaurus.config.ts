@@ -90,7 +90,7 @@ const config: Config = {
             },
             {
               label: 'Sobre',
-              to: '/sobre',
+              to: '/Sobre',
             },
             {
               label: 'Política de privacidade',
