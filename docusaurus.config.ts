@@ -17,24 +17,27 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://manual.cacic.dev.br',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
+  trailingSlash: false,
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'cacic-fct', // Usually your GitHub org/user name.
+  projectName: 'manual-do-calouro', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
 
   onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'throw',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'pt-BR',
+    locales: ['pt-BR'],
   },
 
   presets: [
@@ -56,6 +59,26 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
+
+  scripts: [
+    {
+      src: 'https://plsbl.cacic.dev.br/js/script.js',
+      defer: true,
+      'data-domain': 'manual.cacic.dev.br',
+    },
+  ],
+
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'preconnect',
+        href: 'https://plsbl.cacic.dev.br',
+      },
+    },
+  ],
+
+  themes: ['docusaurus-theme-search-typesense'],
 
   themeConfig: {
     // Replace with your project's social card
@@ -101,6 +124,10 @@ const config: Config = {
         {
           title: 'CACiC',
           items: [
+            {
+              label: 'Site',
+              href: 'https://cacic.dev.br',
+            },
             {
               label: 'Instagram',
               href: 'https://instagram.com/cacic.fct',
