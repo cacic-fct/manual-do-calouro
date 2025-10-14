@@ -1,6 +1,6 @@
 # Manual do calouro
 
-O "manual do calouro" apresenta a FCT-Unesp e a cidade de Presidente Prudente para os novos ingressantes.
+O "manual do calouro" apresenta a FCT-Unesp e a cidade de Presidente Prudente aos novos ingressantes.
 
 Estão reunidas as informações que o calouro precisa saber para entender seus novos espaços e aproveitar tudo que oferecem.
 

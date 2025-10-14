@@ -1,0 +1,105 @@
+import React from "react";
+import ContactCard from "./ContactCard";
+import type { ContactInfo } from "./ContactCard";
+
+const contacts: ContactInfo[] = [
+  {
+    course: "Ciência da Computação",
+    acronym: "CACiC",
+    email: "cacic.fct@gmail.com",
+    website: "https://cacic-fct.github.io",
+    social: {
+      facebook: "cacic.fct",
+      instagram: "cacic.fct",
+      youtube: "UCoYH_4dyIQHx2Kad-HG6aNA",
+    },
+  },
+  {
+    course: "Arquitetura e Urbanismo",
+    acronym: "CACAU",
+    social: {
+      instagram: "cacau.unespp",
+    },
+  },
+  {
+    course: "Educação Física",
+    acronym: "CAEF",
+    social: {
+      instagram: "caef_fct",
+    },
+  },
+  {
+    course: "Engenharia Ambiental",
+    acronym: "CAEA",
+    email: "caeng.ambiental@gmail.com",
+    social: {
+      instagram: "caengambiental",
+    },
+  },
+  {
+    course: "Engenharia Cartográfica e de Agrimensura",
+    acronym: "CAMA",
+    social: {
+      instagram: "cacartografica",
+    },
+  },
+  {
+    course: "Estatística",
+    acronym: "CAE",
+    social: {
+      instagram: "cae_unesp",
+    },
+  },
+  // {
+  //   course: 'Física',
+  //   acronym: '',
+  //   social: {
+  //     facebook: '',
+  //     instagram: '',
+  //   },
+  // },
+  {
+    course: "Fisioterapia",
+    acronym: "CAF",
+    social: {
+      instagram: "caf.unesp",
+    },
+  },
+  {
+    course: "Geografia",
+    acronym: "CAGEO",
+    social: {
+      facebook: "cageo.geografia",
+      instagram: "cageo.fctunesp",
+      youtube: "UC5fOz1IJ2_aFqnEDFFEDKAA",
+      twitter: "CageoFct",
+    },
+  },
+  {
+    course: "Matemática",
+    acronym: "CENTRAMA",
+    social: {
+      instagram: "centramafct",
+    },
+  },
+  // {
+  //   course: 'Pedagogia',
+  //   acronym: '',
+  //   social: {
+  //     facebook: '',
+  //     instagram: '',
+  //   },
+  // },
+  // {
+  //   course: 'Química',
+  //   acronym: '',
+  //   social: {
+  //     facebook: '',
+  //     instagram: '',
+  //   },
+  // },
+];
+
+export default function ContatosCas(): React.JSX.Element {
+  return <ContactCard contactData={contacts} />;
+}
