@@ -185,7 +185,7 @@ const config: Config = {
       translations: {} satisfies DocSearchTranslations,
     } satisfies DocSearchProps,
   } satisfies Preset.ThemeConfig,
-  plugins: ['./src/plugins/tailwind.js', '@docusaurus/plugin-sitemap'],
+  plugins: ['./src/plugins/tailwind.js'],
 };
 
 export default config;
