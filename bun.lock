@@ -5,6 +5,7 @@
     "": {
       "name": "manual-do-calouro",
       "dependencies": {
+        "@cacic-fct/account-manager-cookie-banner": "^0.0.1",
         "@docusaurus/core": "3.10.1",
         "@docusaurus/faster": "^3.10.1",
         "@docusaurus/preset-classic": "3.10.1",
@@ -38,6 +39,8 @@
     },
   },
   "packages": {
+    "@cacic-fct/account-manager-cookie-banner": ["@cacic-fct/account-manager-cookie-banner@0.0.1", "https://npm.pkg.github.com/download/@cacic-fct/account-manager-cookie-banner/0.0.1/b429d2eaeca92306f4a044c46f615a4c373c0b9e", { "peerDependencies": { "@angular/common": ">=19", "@angular/core": ">=19" } }, "sha512-lNllPo8JwJCVqDB/6bhLTaWu2Yr6ZvIkHk20tfpV8LvP2ZZcLOpRbimrRFaDZcQXg0VdgaU1wxwnRfshcCNkEw=="],
+
     "@algolia/abtesting": ["@algolia/abtesting@1.6.0", "", { "dependencies": { "@algolia/client-common": "5.40.0", "@algolia/requester-browser-xhr": "5.40.0", "@algolia/requester-fetch": "5.40.0", "@algolia/requester-node-http": "5.40.0" } }, "sha512-c4M/Z/KWkEG+RHpZsWKDTTlApXu3fe4vlABNcpankWBhdMe4oPZ/r4JxEr2zKUP6K+BT66tnp8UbHmgOd/vvqQ=="],
 
     "@algolia/autocomplete-core": ["@algolia/autocomplete-core@1.8.2", "", { "dependencies": { "@algolia/autocomplete-shared": "1.8.2" } }, "sha512-mTeshsyFhAqw/ebqNsQpMtbnjr+qVOSKXArEj4K0d7sqc8It1XD0gkASwecm9mF/jlOQ4Z9RNg1HbdA8JPdRwQ=="],
