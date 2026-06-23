@@ -19,6 +19,7 @@ $RECYCLE.BIN/
 # Generated files
 .docusaurus
 .cache-loader
+static/js/cacic-umami-tracking.js
 
 # Misc
 .DS_Store
@@ -30,4 +31,3 @@ $RECYCLE.BIN/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-

@@ -6,9 +6,10 @@
     "docusaurus": "docusaurus",
     "dev": "docusaurus start --no-open",
     "start": "docusaurus start",
-    "build": "docusaurus build",
+    "build:analytics": "mkdir -p static/js && bun build src/analytics/cacic-umami-tracking.ts --target=browser --format=iife --outfile=static/js/cacic-umami-tracking.js --minify",
+    "build": "bun run build:analytics && docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
+    "deploy": "bun run build:analytics && docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
@@ -16,6 +17,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@cacic-fct/account-manager-privacy": "0.0.2",
     "@docusaurus/core": "3.10.1",
     "@docusaurus/faster": "^3.10.1",
     "@docusaurus/preset-classic": "3.10.1",

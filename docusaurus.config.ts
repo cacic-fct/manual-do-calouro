@@ -4,6 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 import { DocSearchProps, DocSearchTranslations } from 'typesense-docsearch-react';
 
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
+const isProduction = process.env.NODE_ENV === 'production';
 
 const config: Config = {
   title: 'Manual do calouro',
@@ -13,7 +14,7 @@ const config: Config = {
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
-    experimental_faster: true,
+    faster: true,
   },
 
   // Set the production url of your site here
@@ -65,23 +66,35 @@ const config: Config = {
     ],
   ],
 
-  scripts: [
-    {
-      src: 'https://plsbl.cacic.dev.br/js/script.js',
-      defer: true,
-      'data-domain': 'manual.cacic.dev.br',
-    },
-  ],
+  scripts: isProduction
+    ? [
+        {
+          src: '/js/cacic-umami-tracking.js',
+          defer: true,
+          'data-website-id': 'd76bbed7-bac2-4f20-904a-2a433985d6a3',
+        },
+      ]
+    : [],
 
-  headTags: [
-    {
-      tagName: 'link',
-      attributes: {
-        rel: 'preconnect',
-        href: 'https://plsbl.cacic.dev.br',
-      },
-    },
-  ],
+  headTags: isProduction
+    ? [
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'preconnect',
+            href: 'https://account.cacic.dev.br',
+            crossorigin: 'anonymous',
+          },
+        },
+        {
+          tagName: 'link',
+          attributes: {
+            rel: 'preconnect',
+            href: 'https://a.cacic.dev.br',
+          },
+        },
+      ]
+    : [],
 
   themes: ['docusaurus-theme-search-typesense'],
 
