@@ -41,7 +41,8 @@
     "react-dom": "^19.2.5",
     "react-vertical-timeline-component": "^4.0.0",
     "tailwindcss": "^4.2.4",
-    "typesense-docsearch-react": "^3.4.1"
+    "typesense-docsearch-react": "^3.4.1",
+    "unleash-proxy-client": "^3.8.0"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.1",
