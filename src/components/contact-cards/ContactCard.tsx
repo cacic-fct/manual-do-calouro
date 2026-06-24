@@ -1,5 +1,10 @@
 import React from "react";
-import { Mail, Globe, Phone, Linkedin, Twitter, Facebook, Instagram, Youtube } from "lucide-react";
+import Facebook from "@mui/icons-material/Facebook";
+import Instagram from "@mui/icons-material/Instagram";
+import LinkedIn from "@mui/icons-material/LinkedIn";
+import Twitter from "@mui/icons-material/Twitter";
+import YouTube from "@mui/icons-material/YouTube";
+import { Mail, Globe, Phone } from "lucide-react";
 
 export interface ContactInfo {
   course: string;
@@ -29,11 +34,11 @@ const socialMediaUrls = {
 } as const;
 
 const socialIcons = {
-  linkedin: Linkedin,
+  linkedin: LinkedIn,
   twitter: Twitter,
   facebook: Facebook,
   instagram: Instagram,
-  youtube: Youtube,
+  youtube: YouTube,
 };
 
 export default function ContactCard({ contactData }: ContactCardProps): React.JSX.Element {
