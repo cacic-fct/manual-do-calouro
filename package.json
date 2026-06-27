@@ -17,8 +17,8 @@
     "typecheck": "tsc"
   },
   "dependencies": {
-    "@cacic-fct/account-manager-cookie-banner": "^0.0.2",
-    "@cacic-fct/account-manager-privacy": "0.0.2",
+    "@cacic-fct/account-manager-cookie-banner": "^0.1.1",
+    "@cacic-fct/account-manager-privacy": "^0.1.1",
     "@docusaurus/core": "3.10.1",
     "@docusaurus/faster": "^3.10.1",
     "@docusaurus/preset-classic": "3.10.1",
