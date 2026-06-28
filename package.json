@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@cacic-fct/account-manager-cookie-banner": "^0.1.1",
-    "@cacic-fct/account-manager-privacy": "^0.1.1",
+    "@cacic-fct/account-manager-privacy": "^0.1.2",
     "@docusaurus/core": "3.10.1",
     "@docusaurus/faster": "^3.10.1",
     "@docusaurus/preset-classic": "3.10.1",
@@ -30,7 +30,7 @@
     "@mui/material": "^9.1.2",
     "@tailwindcss/postcss": "^4.3.1",
     "clsx": "^2.1.1",
-    "daisyui": "^5.5.23",
+    "daisyui": "^5.6.3",
     "docusaurus-theme-search-typesense": "^0.26.0",
     "lucide-react": "^1.21.0",
     "ol": "^10.9.0",
