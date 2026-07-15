@@ -18,7 +18,7 @@ const config: Config = {
   },
 
   // Set the production url of your site here
-  url: 'https://manual.cacic.dev.br',
+  url: 'https://manual.cacic.com.br',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -82,7 +82,7 @@ const config: Config = {
           tagName: 'link',
           attributes: {
             rel: 'preconnect',
-            href: 'https://account.cacic.dev.br',
+            href: 'https://account.cacic.com.br',
             crossorigin: 'anonymous',
           },
         },
@@ -90,7 +90,7 @@ const config: Config = {
           tagName: 'link',
           attributes: {
             rel: 'preconnect',
-            href: 'https://a.cacic.dev.br',
+            href: 'https://a.cacic.com.br',
           },
         },
       ]
@@ -135,7 +135,7 @@ const config: Config = {
             },
             {
               label: 'Política de privacidade',
-              to: 'https://cacic.dev.br/legal/privacy-policy',
+              to: 'https://cacic.com.br/legal/privacy-policy',
             },
           ],
         },
@@ -144,7 +144,7 @@ const config: Config = {
           items: [
             {
               label: 'Site',
-              href: 'https://cacic.dev.br',
+              href: 'https://cacic.com.br',
             },
             {
               label: 'Instagram',
@@ -181,7 +181,7 @@ const config: Config = {
       typesenseServerConfig: {
         nodes: [
           {
-            host: 'typesense.cacic.dev.br',
+            host: 'typesense.cacic.com.br',
             port: 443,
             protocol: 'https',
           },

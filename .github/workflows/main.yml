@@ -61,7 +61,7 @@ jobs:
 
     env:
       TYPESENSE_API_KEY: ${{ secrets.TYPESENSE_API_ADMIN }}
-      TYPESENSE_HOST: typesense.cacic.dev.br
+      TYPESENSE_HOST: typesense.cacic.com.br
       TYPESENSE_PORT: 443
       TYPESENSE_PROTOCOL: https
     steps:

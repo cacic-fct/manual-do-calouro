@@ -2,9 +2,8 @@ import { UnleashClient } from 'unleash-proxy-client';
 
 const COOKIE_BANNER_FEATURE_FLAG = 'cookie-banner-enabled';
 const DEVELOPMENT_STORAGE_KEY = 'cacic.cookieBanner.enabled';
-const UNLEASH_URL = 'https://unleash.cacic.dev.br/api/frontend';
-const PRODUCTION_CLIENT_KEY =
-  'default:production.h8sn3hzUSF07msdHkuXubAVRxSgtAdGsBCXiXXhcs8I4boeXozEue0Tx0lwq';
+const UNLEASH_URL = 'https://unleash.cacic.com.br/api/frontend';
+const PRODUCTION_CLIENT_KEY = 'default:production.h8sn3hzUSF07msdHkuXubAVRxSgtAdGsBCXiXXhcs8I4boeXozEue0Tx0lwq';
 
 export async function isCookieBannerEnabled(appName) {
   if (typeof window === 'undefined') {
@@ -83,9 +82,7 @@ function readRuntimeConfigValue(metaName) {
 async function fetchWithoutConsoleNoise(input, init) {
   try {
     const response = await fetch(input, init);
-    return response.status === 401 || response.status === 403
-      ? createNotModifiedResponse()
-      : response;
+    return response.status === 401 || response.status === 403 ? createNotModifiedResponse() : response;
   } catch {
     return createNotModifiedResponse();
   }

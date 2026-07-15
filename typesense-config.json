@@ -1,10 +1,10 @@
 {
   "index_name": "manual-do-calouro",
   "start_urls": [
-    "https://manual.cacic.dev.br"
+    "https://manual.cacic.com.br"
   ],
   "sitemap_urls": [
-    "https://manual.cacic.dev.br/sitemap.xml"
+    "https://manual.cacic.com.br/sitemap.xml"
   ],
   "selectors": {
     "lvl0": {
