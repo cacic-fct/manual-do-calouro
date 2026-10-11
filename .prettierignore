@@ -1,0 +1,5 @@
+# Generated output
+/node_modules
+/build
+/.docusaurus
+/static/js/cacic-umami-tracking.js
