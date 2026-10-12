@@ -1,10 +1,10 @@
-import React from "react";
-import Facebook from "@mui/icons-material/Facebook";
-import Instagram from "@mui/icons-material/Instagram";
-import LinkedIn from "@mui/icons-material/LinkedIn";
-import Twitter from "@mui/icons-material/Twitter";
-import YouTube from "@mui/icons-material/YouTube";
-import { Mail, Globe, Phone } from "lucide-react";
+import React from 'react';
+import Facebook from '@mui/icons-material/Facebook';
+import Instagram from '@mui/icons-material/Instagram';
+import LinkedIn from '@mui/icons-material/LinkedIn';
+import Twitter from '@mui/icons-material/Twitter';
+import YouTube from '@mui/icons-material/YouTube';
+import { Mail, Globe, Phone } from 'lucide-react';
 
 export interface ContactInfo {
   course: string;
@@ -26,11 +26,11 @@ interface ContactCardProps {
 }
 
 const socialMediaUrls = {
-  linkedin: "https://linkedin.com/in/",
-  twitter: "https://twitter.com/",
-  facebook: "https://fb.com/",
-  instagram: "https://instagram.com/",
-  youtube: "https://youtube.com/channel/",
+  linkedin: 'https://linkedin.com/in/',
+  twitter: 'https://twitter.com/',
+  facebook: 'https://fb.com/',
+  instagram: 'https://instagram.com/',
+  youtube: 'https://youtube.com/channel/',
 } as const;
 
 const socialIcons = {
@@ -59,8 +59,7 @@ export default function ContactCard({ contactData }: ContactCardProps): React.JS
         {contactData.map((contact, index) => (
           <div
             key={`${contact.acronym}-${index}`}
-            className="contact-card card w-96 bg-base-100 shadow-xl align-stretch"
-          >
+            className="contact-card card w-96 bg-base-100 shadow-xl align-stretch">
             <div className="card-body">
               <h3 className="card-title">{contact.course}</h3>
               <p>{contact.acronym}</p>
@@ -75,8 +74,7 @@ export default function ContactCard({ contactData }: ContactCardProps): React.JS
                     href={contact.website}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-500 hover:text-blue-700"
-                  >
+                    className="text-blue-500 hover:text-blue-700">
                     <Globe className="w-6 h-6" />
                   </a>
                 )}
@@ -96,8 +94,7 @@ export default function ContactCard({ contactData }: ContactCardProps): React.JS
                         href={`${url}${handle}`}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="text-blue-500 hover:text-blue-700"
-                      >
+                        className="text-blue-500 hover:text-blue-700">
                         <IconComponent className="w-6 h-6" />
                       </a>
                     );

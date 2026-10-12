@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 /* Attribution: Aaron Shekey
    https://stackoverflow.blog/2021/05/31/shipping-confetti-to-stack-overflows-design-system/ */
 
@@ -18,7 +18,7 @@ export default function Confetti(): React.JSX.Element {
           }
         }
       `}</style>
-      <div className="bg-confetti-animated" style={{ paddingTop: "50px" }}></div>
+      <div className="bg-confetti-animated" style={{ paddingTop: '50px' }}></div>
     </>
   );
 }

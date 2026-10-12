@@ -1,53 +1,53 @@
-import React from "react";
-import ContactCard from "./ContactCard";
-import type { ContactInfo } from "./ContactCard";
+import React from 'react';
+import ContactCard from './ContactCard';
+import type { ContactInfo } from './ContactCard';
 
 const contacts: ContactInfo[] = [
   {
-    course: "Ciência da Computação",
-    acronym: "CACiC",
-    email: "cacic.fct@gmail.com",
-    website: "https://cacic-fct.github.io",
+    course: 'Ciência da Computação',
+    acronym: 'CACiC',
+    email: 'cacic.fct@gmail.com',
+    website: 'https://cacic-fct.github.io',
     social: {
-      facebook: "cacic.fct",
-      instagram: "cacic.fct",
-      youtube: "UCoYH_4dyIQHx2Kad-HG6aNA",
+      facebook: 'cacic.fct',
+      instagram: 'cacic.fct',
+      youtube: 'UCoYH_4dyIQHx2Kad-HG6aNA',
     },
   },
   {
-    course: "Arquitetura e Urbanismo",
-    acronym: "CACAU",
+    course: 'Arquitetura e Urbanismo',
+    acronym: 'CACAU',
     social: {
-      instagram: "cacau.unespp",
+      instagram: 'cacau.unespp',
     },
   },
   {
-    course: "Educação Física",
-    acronym: "CAEF",
+    course: 'Educação Física',
+    acronym: 'CAEF',
     social: {
-      instagram: "caef_fct",
+      instagram: 'caef_fct',
     },
   },
   {
-    course: "Engenharia Ambiental",
-    acronym: "CAEA",
-    email: "caeng.ambiental@gmail.com",
+    course: 'Engenharia Ambiental',
+    acronym: 'CAEA',
+    email: 'caeng.ambiental@gmail.com',
     social: {
-      instagram: "caengambiental",
+      instagram: 'caengambiental',
     },
   },
   {
-    course: "Engenharia Cartográfica e de Agrimensura",
-    acronym: "CAMA",
+    course: 'Engenharia Cartográfica e de Agrimensura',
+    acronym: 'CAMA',
     social: {
-      instagram: "cacartografica",
+      instagram: 'cacartografica',
     },
   },
   {
-    course: "Estatística",
-    acronym: "CAE",
+    course: 'Estatística',
+    acronym: 'CAE',
     social: {
-      instagram: "cae_unesp",
+      instagram: 'cae_unesp',
     },
   },
   // {
@@ -59,27 +59,27 @@ const contacts: ContactInfo[] = [
   //   },
   // },
   {
-    course: "Fisioterapia",
-    acronym: "CAF",
+    course: 'Fisioterapia',
+    acronym: 'CAF',
     social: {
-      instagram: "caf.unesp",
+      instagram: 'caf.unesp',
     },
   },
   {
-    course: "Geografia",
-    acronym: "CAGEO",
+    course: 'Geografia',
+    acronym: 'CAGEO',
     social: {
-      facebook: "cageo.geografia",
-      instagram: "cageo.fctunesp",
-      youtube: "UC5fOz1IJ2_aFqnEDFFEDKAA",
-      twitter: "CageoFct",
+      facebook: 'cageo.geografia',
+      instagram: 'cageo.fctunesp',
+      youtube: 'UC5fOz1IJ2_aFqnEDFFEDKAA',
+      twitter: 'CageoFct',
     },
   },
   {
-    course: "Matemática",
-    acronym: "CENTRAMA",
+    course: 'Matemática',
+    acronym: 'CENTRAMA',
     social: {
-      instagram: "centramafct",
+      instagram: 'centramafct',
     },
   },
   // {

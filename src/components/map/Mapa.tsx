@@ -1,15 +1,15 @@
-import React, { useEffect, useRef } from "react";
-import OLMap from "ol/Map";
-import View from "ol/View";
-import OSM from "ol/source/OSM";
-import { useGeographic } from "ol/proj";
-import VectorSource from "ol/source/Vector";
-import Overlay from "ol/Overlay";
-import GeoJSON from "ol/format/GeoJSON";
-import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
-import { Icon, Stroke, Style } from "ol/style";
-import { FullScreen, defaults as defaultControls } from "ol/control.js";
-import "ol/ol.css";
+import React, { useEffect, useRef } from 'react';
+import OLMap from 'ol/Map';
+import View from 'ol/View';
+import OSM from 'ol/source/OSM';
+import { useGeographic } from 'ol/proj';
+import VectorSource from 'ol/source/Vector';
+import Overlay from 'ol/Overlay';
+import GeoJSON from 'ol/format/GeoJSON';
+import { Tile as TileLayer, Vector as VectorLayer } from 'ol/layer';
+import { Icon, Stroke, Style } from 'ol/style';
+import { FullScreen, defaults as defaultControls } from 'ol/control.js';
+import 'ol/ol.css';
 
 export default function Mapa(): React.JSX.Element {
   const mapRef = useRef<HTMLDivElement>(null);
@@ -32,7 +32,7 @@ export default function Mapa(): React.JSX.Element {
         center: [-51.40775, -22.12103],
         zoom: 15,
         maxZoom: 19,
-        projection: "EPSG:3857",
+        projection: 'EPSG:3857',
       }),
       layers: [rasterLayer],
       target: mapRef.current,
@@ -46,8 +46,8 @@ export default function Mapa(): React.JSX.Element {
         image: new Icon({
           anchor: [0.5, 1],
           scale: 0.5,
-          anchorXUnits: "fraction",
-          anchorYUnits: "fraction",
+          anchorXUnits: 'fraction',
+          anchorYUnits: 'fraction',
           src: `https://cdn.jsdelivr.net/gh/pointhi/leaflet-color-markers@master/img/marker-icon-2x-${color}.png`,
         }),
         stroke: new Stroke({
@@ -57,14 +57,14 @@ export default function Mapa(): React.JSX.Element {
       });
 
     const iconStyles: Record<string, Style> = {
-      mercados: createIconStyle("blue", "#3274A3"),
-      compras: createIconStyle("gold", "#C1A32D"),
-      hospitais: createIconStyle("red", "#982E40"),
-      farmacias: createIconStyle("orange", "#98652E"),
-      autoridades: createIconStyle("grey", "#6B6B6B"),
+      mercados: createIconStyle('blue', '#3274A3'),
+      compras: createIconStyle('gold', '#C1A32D'),
+      hospitais: createIconStyle('red', '#982E40'),
+      farmacias: createIconStyle('orange', '#98652E'),
+      autoridades: createIconStyle('grey', '#6B6B6B'),
     };
 
-    const layers = ["mercados", "compras", "hospitais", "farmacias", "autoridades"];
+    const layers = ['mercados', 'compras', 'hospitais', 'farmacias', 'autoridades'];
 
     const popup = popupRef.current;
     const popupOverlay = new Overlay({
@@ -93,13 +93,13 @@ export default function Mapa(): React.JSX.Element {
     });
 
     // Popup interactions
-    map.on("singleclick", (event) => {
+    map.on('singleclick', (event) => {
       map.forEachFeatureAtPixel(
         event.pixel,
         (feature) => {
-          const name = feature.get("name");
-          const description = feature.get("description") || "";
-          const maps = feature.get("maps");
+          const name = feature.get('name');
+          const description = feature.get('description') || '';
+          const maps = feature.get('maps');
 
           let content = `<span>${name}</span>`;
           if (description) {
@@ -113,21 +113,21 @@ export default function Mapa(): React.JSX.Element {
           popup.hidden = false;
           popupOverlay.setPosition(event.coordinate);
         },
-        { hitTolerance: 6 }
+        { hitTolerance: 6 },
       );
     });
 
-    map.on("movestart", () => {
+    map.on('movestart', () => {
       popup.hidden = true;
     });
 
-    map.on("pointermove", (e) => {
+    map.on('pointermove', (e) => {
       const pixel = map.getEventPixel(e.originalEvent);
       const hit = map.hasFeatureAtPixel(pixel);
       const target = map.getTarget() as HTMLElement;
 
       if (target) {
-        target.style.cursor = hit ? "pointer" : "";
+        target.style.cursor = hit ? 'pointer' : '';
       }
     });
 
@@ -164,7 +164,7 @@ export default function Mapa(): React.JSX.Element {
         }
       `}</style>
       <div className="map-container">
-        <div ref={mapRef} style={{ width: "100%", height: "100%" }}>
+        <div ref={mapRef} style={{ width: '100%', height: '100%' }}>
           <div ref={popupRef} className="popup" hidden></div>
         </div>
       </div>

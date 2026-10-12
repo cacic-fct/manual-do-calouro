@@ -91,26 +91,22 @@ const translations: DocSearchTranslations & { placeholder: string } = {
       selectKeyAriaLabel: translate({
         id: 'theme.SearchModal.footer.selectKeyAriaLabel',
         message: 'Tecla Enter',
-        description:
-          'The ARIA label for the Enter key button that makes the selection',
+        description: 'The ARIA label for the Enter key button that makes the selection',
       }),
       navigateText: translate({
         id: 'theme.SearchModal.footer.navigateText',
         message: 'para navegar',
-        description:
-          'The explanatory text of the action for the Arrow up and Arrow down key',
+        description: 'The explanatory text of the action for the Arrow up and Arrow down key',
       }),
       navigateUpKeyAriaLabel: translate({
         id: 'theme.SearchModal.footer.navigateUpKeyAriaLabel',
         message: 'Seta para cima',
-        description:
-          'The ARIA label for the Arrow up key button that makes the navigation',
+        description: 'The ARIA label for the Arrow up key button that makes the navigation',
       }),
       navigateDownKeyAriaLabel: translate({
         id: 'theme.SearchModal.footer.navigateDownKeyAriaLabel',
         message: 'Seta para baixo',
-        description:
-          'The ARIA label for the Arrow down key button that makes the navigation',
+        description: 'The ARIA label for the Arrow down key button that makes the navigation',
       }),
       closeText: translate({
         id: 'theme.SearchModal.footer.closeText',
@@ -120,8 +116,7 @@ const translations: DocSearchTranslations & { placeholder: string } = {
       closeKeyAriaLabel: translate({
         id: 'theme.SearchModal.footer.closeKeyAriaLabel',
         message: 'Tecla ESC',
-        description:
-          'The ARIA label for the Escape key button that close the modal',
+        description: 'The ARIA label for the Escape key button that close the modal',
       }),
       searchByText: translate({
         id: 'theme.SearchModal.footer.searchByText',
@@ -133,20 +128,17 @@ const translations: DocSearchTranslations & { placeholder: string } = {
       noResultsText: translate({
         id: 'theme.SearchModal.noResultsScreen.noResultsText',
         message: 'Sem resultados para',
-        description:
-          'The text explains that there are no results for the following search',
+        description: 'The text explains that there are no results for the following search',
       }),
       suggestedQueryText: translate({
         id: 'theme.SearchModal.noResultsScreen.suggestedQueryText',
         message: 'Tente buscar por',
-        description:
-          'The text for the suggested query when no results are found for the following search',
+        description: 'The text for the suggested query when no results are found for the following search',
       }),
       reportMissingResultsText: translate({
         id: 'theme.SearchModal.noResultsScreen.reportMissingResultsText',
         message: 'Achou que faltam resultados?',
-        description:
-          'The text for the question where the user thinks there are missing results',
+        description: 'The text for the question where the user thinks there are missing results',
       }),
       reportMissingResultsLinkText: translate({
         id: 'theme.SearchModal.noResultsScreen.reportMissingResultsLinkText',
